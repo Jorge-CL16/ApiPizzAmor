@@ -4781,11 +4781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Api1.csproj",
+      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoApiPizzAmor\\CopiaFinalApi\\Api1\\Api1.csproj",
       "projectName": "Api1",
-      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Api1.csproj",
+      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoApiPizzAmor\\CopiaFinalApi\\Api1\\Api1.csproj",
       "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\obj\\",
+      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoApiPizzAmor\\CopiaFinalApi\\Api1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
