@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\tama\u00F1odepizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\tama\u00F1odepizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\models\\tiposdepizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:models\\tiposdepizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\tiposdepizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\tiposdepizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\models\\ordene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:models\\ordene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\ingredienteextracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\ingredienteextracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|c:\\users\\jorge\\onedrive\\documentos\\copiafinalapi\\api1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA5711-64F5-49E4-8A06-56A454003CFF}|Api1.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TiposDePizza.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Models\\TiposDePizza.cs",
+              "RelativeDocumentMoniker": "Models\\TiposDePizza.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Models\\TiposDePizza.cs",
+              "RelativeToolTip": "Models\\TiposDePizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T05:11:38.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T01:38:16.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T01:38:04.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IngredienteExtraController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\IngredienteExtraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IngredienteExtraController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\IngredienteExtraController.cs",
+              "RelativeToolTip": "Controllers\\IngredienteExtraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T23:51:26.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ordene.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Models\\Ordene.cs",
+              "RelativeDocumentMoniker": "Models\\Ordene.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Models\\Ordene.cs",
+              "RelativeToolTip": "Models\\Ordene.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T23:10:00.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdenesController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\OrdenesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdenesController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\OrdenesController.cs",
+              "RelativeToolTip": "Controllers\\OrdenesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T23:08:57.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T07:40:43.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TiposDePizzaController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\TiposDePizzaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TiposDePizzaController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\TiposDePizzaController.cs",
+              "RelativeToolTip": "Controllers\\TiposDePizzaController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T07:11:16.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tama\u00F1oDePizzaController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\Tama\u00F1oDePizzaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Tama\u00F1oDePizzaController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\Tama\u00F1oDePizzaController.cs",
+              "RelativeToolTip": "Controllers\\Tama\u00F1oDePizzaController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T07:10:44.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\CopiaFinalApi\\Api1\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T07:01:05.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
