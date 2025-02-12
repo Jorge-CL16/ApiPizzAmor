@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tipos de Pizza</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Gestión de ADMIN Tipos de Pizza</h1>
+    
+    <button id="btnAdd" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#pizzaModal">
+      Agregar Nuevo Tipo de Pizza
+    </button>
+    
+    <table class="table table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="pizzaTableBody">
+        
+      </tbody>
+    </table>
+  </div>
+
+    <div class="modal fade" id="pizzaModal" tabindex="-1" aria-labelledby="pizzaModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="pizzaModalLabel" class="modal-title">Agregar Tipo de Pizza</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <form id="pizzaForm">
+            <input type="hidden" id="idTipoPizza">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre de la pizza" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" id="btnSave" class="btn btn-primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const apiUrl = 'https://localhost:44370/api/TiposDePizza';
+
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      loadPizzas();
+      document.getElementById('btnSave').addEventListener('click', savePizza);
+    });
+
+    const pizzaModalEl = document.getElementById('pizzaModal');
+    const pizzaModal = new bootstrap.Modal(pizzaModalEl);
+
+    function loadPizzas() {
+      fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+          console.log("Respuesta GET:", data);
+          if (data.exito === 1) {
+            const pizzas = data.data;
+            let rows = '';
+            pizzas.forEach(pizza => {
+              rows += `
+                <tr>
+                  <td>${pizza.idTipoPizza}</td>
+                  <td>${pizza.nombre}</td>
+                  <td>
+                    <button class="btn btn-sm btn-info me-2" onclick="editPizza(${pizza.idTipoPizza}, '${pizza.nombre}')">Editar</button>
+                    <button class="btn btn-sm btn-danger" onclick="deletePizza(${pizza.idTipoPizza})">Eliminar</button>
+                  </td>
+                </tr>
+              `;
+            });
+            document.getElementById('pizzaTableBody').innerHTML = rows;
+          } else {
+            console.error("Error al obtener datos:", data.mensaje);
+            alert('Error al cargar los datos: ' + data.mensaje);
+          }
+        })
+        .catch(error => {
+          console.error('Error en GET:', error);
+          alert('Ocurrió un error al obtener los datos. Revisa la consola para más detalles.');
+        });
+    }
+
+    function savePizza() {
+      const id = document.getElementById('idTipoPizza').value;
+      const nombre = document.getElementById('nombre').value.trim();
+
+      if (!nombre) {
+        alert('El nombre es obligatorio.');
+        return;
+      }
+
+      let payload = { nombre: nombre };
+      let method = 'POST';
+      if (id) {
+        method = 'PUT';
+        payload.idTipoPizza = parseInt(id);
+      }
+
+      console.log("Enviando datos:", payload, "con método", method);
+
+      fetch(apiUrl, {
+        method: method,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log("Respuesta de guardar:", data);
+        if (data.exito === 1) {
+          pizzaModal.hide();
+          document.getElementById('pizzaForm').reset();
+          loadPizzas();
+        } else {
+          alert('Error al guardar: ' + data.mensaje);
+        }
+      })
+      .catch(error => {
+        console.error('Error en POST/PUT:', error);
+        alert('Ocurrió un error al guardar el registro. Revisa la consola para más detalles.');
+      });
+    }
+
+    
+    function editPizza(id, nombre) {
+      document.getElementById('idTipoPizza').value = id;
+      document.getElementById('nombre').value = nombre;
+      document.getElementById('pizzaModalLabel').textContent = 'Editar Tipo de Pizza';
+      pizzaModal.show();
+    }
+
+    function deletePizza(id) {
+      if (confirm('¿Estás seguro de eliminar este registro?')) {
+        fetch(`${apiUrl}/${id}`, { method: 'DELETE' })
+          .then(response => response.json())
+          .then(data => {
+            console.log("Respuesta de eliminar:", data);
+            if (data.exito === 1) {
+              loadPizzas();
+            } else {
+              alert('Error al eliminar: ' + data.mensaje);
+            }
+          })
+          .catch(error => {
+            console.error('Error en DELETE:', error);
+            alert('Ocurrió un error al eliminar el registro. Revisa la consola para más detalles.');
+          });
+      }
+    }
+
+    pizzaModalEl.addEventListener('hidden.bs.modal', () => {
+      document.getElementById('pizzaForm').reset();
+      document.getElementById('idTipoPizza').value = '';
+      document.getElementById('pizzaModalLabel').textContent = 'Agregar Tipo de Pizza';
+    });
+  </script>
+</body>
+</html>

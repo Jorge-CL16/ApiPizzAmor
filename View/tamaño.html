@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRUD Tamaño de Pizza</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1>CRUD Tamaño de Pizza</h1>
+    
+    <!-- Formulario para Agregar / Editar -->
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title" id="form-title">Agregar Tamaño de Pizza</h5>
+        <form id="tamanoForm">
+          <!-- Campo oculto para identificar el registro en edición -->
+          <input type="hidden" id="idTamano">
+          
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="number" id="precio" class="form-control" step="0.01" required>
+          </div>
+          <button type="submit" class="btn btn-primary" id="btnSubmit">Guardar</button>
+          <button type="button" class="btn btn-secondary" id="btnCancel" style="display:none;">Cancelar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Tabla para listar los registros -->
+    <table class="table table-striped" id="tabla-tamanos">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-body">
+        <!-- Aquí se cargarán los datos -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Bootstrap Bundle con Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Usamos la versión URL-encoded para "TamañoDePizza"
+    /*
+    const apiUrl = 'https://localhost:44370/api/TamañoDePizza';
+    let tamanosList = []; // Variable global para almacenar la lista de registros
+
+    // Función para obtener (GET) los tamaños de pizza
+    async function obtenerTamanos() {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error("Error en la respuesta de red");
+        const result = await response.json();
+        if (result.exito === 1) {
+          tamanosList = result.data;
+          renderizarTabla(result.data);
+        } else {
+          console.error("Error al obtener datos:", result.mensaje);
+        }
+      } catch (error) {
+        console.error("Error al obtener tamaños de pizza:", error);
+      }
+    }
+
+    // Renderiza la tabla con los registros
+    function renderizarTabla(tamanos) {
+      const tbody = document.getElementById('tabla-body');
+      tbody.innerHTML = "";
+      tamanos.forEach(tamano => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${tamano.idTamano}</td>
+          <td>${tamano.nombre}</td>
+          <td>${parseFloat(tamano.precio).toFixed(2)}</td>
+          <td>
+            <button class="btn btn-warning btn-sm" onclick="editarTamano(${tamano.idTamano})">Editar</button>
+            <button class="btn btn-danger btn-sm" onclick="eliminarTamano(${tamano.idTamano})">Eliminar</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Manejo del envío del formulario (crear o actualizar)
+    document.getElementById('tamanoForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      const idTamano = document.getElementById('idTamano').value;
+      const nombre = document.getElementById('nombre').value;
+      const precio = parseFloat(document.getElementById('precio').value);
+      const payload = { nombre, precio };
+
+      try {
+        let response;
+        if (idTamano === "" || idTamano === null) {
+          // Crear un nuevo registro (POST)
+          response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+        } else {
+          // Actualizar un registro existente (PUT)
+          payload.idTamano = parseInt(idTamano);
+          response = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+        }
+        if (!response.ok) throw new Error("Error en la respuesta de red");
+        const result = await response.json();
+        if (result.exito === 1) {
+          obtenerTamanos();
+          resetForm();
+        } else {
+          console.error("Error:", result.mensaje);
+        }
+      } catch (error) {
+        console.error("Error al guardar:", error);
+      }
+    });
+
+    // Función para eliminar (DELETE) un registro
+    async function eliminarTamano(id) {
+      if (!confirm("¿Está seguro de eliminar este registro?")) return;
+      try {
+        const response = await fetch(`${apiUrl}/${id}`, { method: 'DELETE' });
+        if (!response.ok) throw new Error("Error en la respuesta de red");
+        const result = await response.json();
+        if (result.exito === 1) {
+          obtenerTamanos();
+        } else {
+          console.error("Error al eliminar:", result.mensaje);
+        }
+      } catch (error) {
+        console.error("Error al eliminar:", error);
+      }
+    }
+
+    // Función para llenar el formulario con los datos del registro a editar
+    // Dado que no contamos con un GET por id, usamos la lista ya cargada (tamanosList)
+    function editarTamano(id) {
+      const tamano = tamanosList.find(t => t.idTamano === id);
+      if (tamano) {
+        document.getElementById('idTamano').value = tamano.idTamano;
+        document.getElementById('nombre').value = tamano.nombre;
+        document.getElementById('precio').value = tamano.precio;
+        document.getElementById('form-title').textContent = "Editar Tamaño de Pizza";
+        document.getElementById('btnSubmit').textContent = "Actualizar";
+        document.getElementById('btnCancel').style.display = "inline-block";
+      } else {
+        console.error("Registro no encontrado");
+      }
+    }
+
+    // Función para limpiar y restablecer el formulario
+    document.getElementById('btnCancel').addEventListener('click', resetForm);
+    function resetForm() {
+      document.getElementById('idTamano').value = "";
+      document.getElementById('nombre').value = "";
+      document.getElementById('precio').value = "";
+      document.getElementById('form-title').textContent = "Agregar Tamaño de Pizza";
+      document.getElementById('btnSubmit').textContent = "Guardar";
+      document.getElementById('btnCancel').style.display = "none";
+    }
+
+    // Cargar los registros al iniciar la página
+    obtenerTamanos();*/
+  </script>
+</body>
+</html>
