@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pizzas Amor</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo_pizza.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row flex-nowrap">
+        <div
+          class="col-auto col-md-3 col-xl-2 px-sm-2 px-0"
+          style="background-color: rgb(136, 78, 160)"
+          id="side_var"
+        >
+          <div
+            class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
+          >
+            <a
+              href=""
+              class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+            >
+            </a>
+            <div>
+              <ul
+                class="nav navbar-nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                id="menu"
+              >
+                <img
+                  id="img_logos"
+                  src="img/logo_pizza.png"
+                  width="155"
+                  height="165"
+                  alt="logo_hp"
+                />
+                <hr />
+                <li class="nav-item">
+                  <h4  style="font-family: Freestyle Script; font-size: 50px;">Opciones</h4>
+                  <hr />
+                  
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    onclick="cargarModuloMenu();"
+                    href="#"
+                    >Menú</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="cargarModuloOrden();" href="#">Ordenes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="cargarModuloEmpleados();" href="#">Trabajadores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="cargarModuloAlmacen();" href="#">Almacen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="cargarModuloClientes();" href="#">Clientes</a>
+                </li>
+                <hr />
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Salir</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 0px">
+          <div
+            id="top_var"
+            style="background-color: rgb(136, 78, 160)"
+            class="container-fluid p-2 text-white text-center"
+          >
+            <h1 style="font-family: Freestyle Script">Pizzas Amor</h1>
+          </div>
+          <div id="divContenedorPrincipal" class="container-fluid mt-3">
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/cargarModulos.js"></script>
+    <script src="js/almacen.js"></script>
+    <script src="js/empleados.js"></script>
+    <script src="js/clientes.js"></script>
+    <script src="js/tiposPizza.js"></script>
+    <script src="js/ordenes.js"></script>
+    <script src="js/menu.js"></script>  
+    <script src="js/tamaño.js"></script>   
+
+  </body>
+</html>
