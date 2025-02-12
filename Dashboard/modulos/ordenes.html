@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crear Orden</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .table-input { width: 80px; }
+    .ticket {
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      border: 1px dashed #333;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h1>Crear Orden</h1>
+    <form id="orderForm">
+      <div class="row mb-3">
+        <div class="col">
+          <label for="clienteSelect" class="form-label">Cliente</label>
+          <select class="form-select" id="clienteSelect" required></select>
+        </div>
+        <div class="col">
+          <label for="empleadoSelect" class="form-label">Empleado</label>
+          <select class="form-select" id="empleadoSelect" required></select>
+        </div>
+        <div class="col">
+          <label for="fechaOrden" class="form-label">Fecha de Orden</label>
+          <input type="date" class="form-control" id="fechaOrden" required>
+        </div>
+      </div>
+      
+      <h3>Detalles de Orden (Menú)</h3>
+      <table class="table" id="detallesTable">
+        <thead>
+          <tr>
+            <th>Menú</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Subtotal</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button type="button" class="btn btn-secondary mb-3" onclick="agregarDetalle()">Agregar Detalle</button>
+      
+      <h3>Refrescos</h3>
+      <table class="table" id="refrescosTable">
+        <thead>
+          <tr>
+            <th>Refresco</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Subtotal</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button type="button" class="btn btn-secondary mb-3" onclick="agregarRefresco()">Agregar Refresco</button>
+      
+      <h3>Monto Total: <span id="montoTotalDisplay">0.00</span></h3>
+      
+      <button type="submit" class="btn text-white" style="background-color: rgb(136, 78, 160)">Guardar Orden</button>
+    </form>
+  </div>
+
+  <div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+         <div class="modal-header">
+             <h5 class="modal-title" id="ticketModalLabel">Ticket de Venta</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+         </div>
+         <div class="modal-body">
+             <div class="ticket" id="ticketDetails">
+               <h4>Ticket de Venta</h4>
+               <p>Total: $0.00</p>
+               <p>Fecha: </p>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const apiBase = 'https://localhost:44370/api';
+
+    let menuItems = [];
+    let refrescos = [];
+
+    document.addEventListener('DOMContentLoaded', () => {
+      cargarClientes();
+      cargarEmpleados();
+      cargarMenu();
+      cargarRefrescos();
+
+      document.getElementById('orderForm').addEventListener('submit', guardarOrden);
+    });
+
+    function cargarClientes() {
+      fetch(`${apiBase}/Cliente`)
+        .then(response => response.json())
+        .then(data => {
+          const clientes = data.data;
+          const clienteSelect = document.getElementById('clienteSelect');
+          clienteSelect.innerHTML = '<option value="">Seleccione un cliente</option>';
+          clientes.forEach(c => {
+            clienteSelect.innerHTML += `<option value="${c.idCliente}">${c.nombre}</option>`;
+          });
+        })
+        .catch(error => console.error('Error al cargar clientes:', error));
+    }
+
+    function cargarEmpleados() {
+      fetch(`${apiBase}/Empleado`)
+        .then(response => response.json())
+        .then(data => {
+          const empleados = data.data;
+          const empleadoSelect = document.getElementById('empleadoSelect');
+          empleadoSelect.innerHTML = '<option value="">Seleccione un empleado</option>';
+          empleados.forEach(e => {
+            empleadoSelect.innerHTML += `<option value="${e.idEmpleado}">${e.nombre} ${e.apellido}</option>`;
+          });
+        })
+        .catch(error => console.error('Error al cargar empleados:', error));
+    }
+
+    function cargarMenu() {
+      fetch(`${apiBase}/Menu`)
+        .then(response => response.json())
+        .then(data => {
+          menuItems = data.data;
+        })
+        .catch(error => {
+          console.error('Error al cargar el menú:', error);
+          menuItems = [
+            { idMenu: 1, nombre: "Pizza Hawaiana", precio: 8.50 },
+            { idMenu: 2, nombre: "Pizza Pepperoni", precio: 10.00 }
+          ];
+        });
+    }
+
+    function cargarRefrescos() {
+      fetch(`${apiBase}/Refrescos`)
+        .then(response => response.json())
+        .then(data => {
+          refrescos = data.data;
+        })
+        .catch(error => console.error('Error al cargar refrescos:', error));
+    }
+
+    function agregarDetalle() {
+      const tbody = document.querySelector('#detallesTable tbody');
+      const row = document.createElement('tr');
+
+      row.innerHTML = `
+        <td>
+          <select class="form-select menuSelect">
+            <option value="">Seleccione un menú</option>
+            ${menuItems.map(item => `<option value="${item.idMenu}" data-precio="${item.precio}">${item.nombre}</option>`).join('')}
+          </select>
+        </td>
+        <td>
+          <input type="number" min="1" value="1" class="form-control cantidadInput" style="width:80px;">
+        </td>
+        <td>
+          <input type="text" readonly class="form-control precioInput" style="width:100px;">
+        </td>
+        <td>
+          <input type="text" readonly class="form-control subtotalInput" style="width:100px;" value="0.00">
+        </td>
+        <td>
+          <button type="button" class="btn btn-danger btn-sm" onclick="eliminarFila(this)">Eliminar</button>
+        </td>
+      `;
+      tbody.appendChild(row);
+
+      const menuSelect = row.querySelector('.menuSelect');
+      const cantidadInput = row.querySelector('.cantidadInput');
+      menuSelect.addEventListener('change', function() {
+        const selectedOption = this.options[this.selectedIndex];
+        const precio = parseFloat(selectedOption.getAttribute('data-precio')) || 0;
+        row.querySelector('.precioInput').value = precio.toFixed(2);
+        actualizarSubtotalRow(row);
+      });
+      cantidadInput.addEventListener('input', function() {
+        actualizarSubtotalRow(row);
+      });
+    }
+
+    function agregarRefresco() {
+      const tbody = document.querySelector('#refrescosTable tbody');
+      const row = document.createElement('tr');
+
+      row.innerHTML = `
+        <td>
+          <select class="form-select refrescoSelect">
+            <option value="">Seleccione un refresco</option>
+            ${refrescos.map(r => `<option value="${r.idRefresco}" data-precio="${r.precio}">${r.nombre}</option>`).join('')}
+          </select>
+        </td>
+        <td>
+          <input type="number" min="1" value="1" class="form-control cantidadInput" style="width:80px;">
+        </td>
+        <td>
+          <input type="text" readonly class="form-control precioInput" style="width:100px;">
+        </td>
+        <td>
+          <input type="text" readonly class="form-control subtotalInput" style="width:100px;" value="0.00">
+        </td>
+        <td>
+          <button type="button" class="btn btn-danger btn-sm" onclick="eliminarFila(this)">Eliminar</button>
+        </td>
+      `;
+      tbody.appendChild(row);
+
+      const refrescoSelect = row.querySelector('.refrescoSelect');
+      const cantidadInput = row.querySelector('.cantidadInput');
+      refrescoSelect.addEventListener('change', function() {
+        const selectedOption = this.options[this.selectedIndex];
+        const precio = parseFloat(selectedOption.getAttribute('data-precio')) || 0;
+        row.querySelector('.precioInput').value = precio.toFixed(2);
+        actualizarSubtotalRow(row);
+      });
+      cantidadInput.addEventListener('input', function() {
+        actualizarSubtotalRow(row);
+      });
+    }
+
+    function eliminarFila(button) {
+      const row = button.closest('tr');
+      row.remove();
+      actualizarTotal();
+    }
+
+    function actualizarSubtotalRow(row) {
+      const cantidad = parseFloat(row.querySelector('.cantidadInput').value) || 0;
+      const precio = parseFloat(row.querySelector('.precioInput').value) || 0;
+      const subtotal = cantidad * precio;
+      row.querySelector('.subtotalInput').value = subtotal.toFixed(2);
+      actualizarTotal();
+    }
+
+    function actualizarTotal() {
+      let total = 0;
+      document.querySelectorAll('#detallesTable .subtotalInput').forEach(input => {
+        total += parseFloat(input.value) || 0;
+      });
+      document.querySelectorAll('#refrescosTable .subtotalInput').forEach(input => {
+        total += parseFloat(input.value) || 0;
+      });
+      document.getElementById('montoTotalDisplay').textContent = total.toFixed(2);
+    }
+
+    function guardarOrden(event) {
+      event.preventDefault();
+      
+      const idCliente = document.getElementById('clienteSelect').value;
+      const idEmpleado = document.getElementById('empleadoSelect').value;
+      const fechaOrden = document.getElementById('fechaOrden').value;
+      const montoTotal = parseFloat(document.getElementById('montoTotalDisplay').textContent);
+      const fechaActual = new Date().toISOString();
+
+      const orden = {
+        idCliente: parseInt(idCliente),
+        idEmpleado: parseInt(idEmpleado),
+        fechaOrden: fechaOrden,
+        montoTotal: montoTotal,
+        creadoEn: fechaActual,
+        actualizadoEn: fechaActual
+      };
+
+      fetch(`${apiBase}/Ordenes`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(orden)
+      })
+      .then(response => response.json())
+      .then(data => {
+        if(data.exito === 1) {
+          document.getElementById('ticketDetails').innerHTML = `
+            <h4>Ticket de Venta</h4>
+            <p>Total: $${montoTotal.toFixed(2)}</p>
+            <p>Fecha: ${new Date().toLocaleString()}</p>
+          `;
+          new bootstrap.Modal(document.getElementById('ticketModal')).show();
+
+          document.getElementById('orderForm').reset();
+          document.querySelector('#detallesTable tbody').innerHTML = '';
+          document.querySelector('#refrescosTable tbody').innerHTML = '';
+          actualizarTotal();
+        } else {
+          alert('Error al guardar la orden: ' + data.mensaje);
+        }
+      })
+      .catch(error => {
+        console.error('Error al guardar la orden:', error);
+        alert('Error al guardar la orden');
+      });
+    }
+  </script>
+</body>
+</html>
