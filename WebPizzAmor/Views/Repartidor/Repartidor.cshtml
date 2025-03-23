@@ -1,0 +1,175 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Registro | Repartidor</title>
+    <link rel="stylesheet" href="~/css/master.css">
+    <style>
+        :root {
+            --primary-color: #0A2647;
+            --background-color: #f9f5f0;
+            --dark-color: #FFC107;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(../img/bg.jpeg) no-repeat center top;
+            background-size: cover;
+            font-family: sans-serif;
+            min-height: 100vh;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            width: 500px;
+            background: var(--primary-color);
+            color: #fff;
+            box-sizing: border-box;
+            padding: 70px 30px 30px;
+            position: relative;
+            border-radius: 10px;
+            overflow: visible;
+        }
+
+        .form-container {
+            max-height: calc(90vh - 80px);
+            overflow-y: auto;
+        }
+
+        .login-box .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+        }
+
+        .login-box h1 {
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .login-box label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .login-box input {
+            width: 100%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+            .login-box input[type="text"],
+            .login-box input[type="password"],
+            .login-box input[type="email"] {
+                border: none;
+                border-bottom: 1px solid #fff;
+                background: transparent;
+                outline: none;
+                height: 40px;
+                color: #fff;
+                font-size: 16px;
+            }
+
+            .login-box input[type="file"] {
+                border: none;
+                background: transparent;
+                color: #fff;
+                font-size: 14px;
+            }
+
+            .login-box input[type="submit"] {
+                border: none;
+                outline: none;
+                height: 40px;
+                background: var(--dark-color);
+                color: #fff;
+                font-size: 18px;
+                border-radius: 20px;
+                transition: background 0.3s, color 0.3s;
+            }
+
+                .login-box input[type="submit"]:hover {
+                    cursor: pointer;
+                    background: #fff;
+                    color: var(--primary-color);
+                }
+
+        .login-box a {
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: darkgrey;
+        }
+
+            .login-box a:hover {
+                color: #fff;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <img src="~/img/logo.png" class="avatar" alt="Avatar Image">
+
+        <div class="form-container">
+            @using (Html.BeginForm("Login", "Repartidor", FormMethod.Post))
+            {
+                <div class="login-form">
+                    <h1>Iniciar Sesión</h1>
+                    <label for="Id">ID</label>
+                    <input type="text" id="Id" name="id" placeholder="Ingresa tu ID" required />
+                    <label for="Placa">Placa</label>
+                    <input type="password" id="Placa" name="placa" placeholder="Ingresa tu Placa" required />
+                    <input type="submit" value="Iniciar Sesión" />
+                    <a href="#" id="link-to-register">¿No tienes una cuenta? Regístrate aquí</a>
+                </div>
+            }
+
+            <div id="register-form" style="display: none;">
+                @using (Html.BeginForm("Register", "Repartidor", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <h1>Registro</h1>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" name="nombre" placeholder="Ingresa tu nombre" required />
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" name="apellido" placeholder="Ingresa tu apellido" required />
+                    <label for="placa">Placa</label>
+                    <input type="text" id="placa" name="placa" placeholder="Ingresa tu placa" required />
+                    <label for="Imagen">Imagen del repartidor</label>
+                    <input type="file" id="Imagen" name="imagen" />
+                    <input type="submit" value="Registrar" />
+                    <a href="#" id="link-to-login">¿Ya tienes una cuenta? Inicia sesión aquí</a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('link-to-register').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('.login-form').style.display = 'none';
+            document.getElementById('register-form').style.display = 'block';
+        });
+
+        document.getElementById('link-to-login').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('register-form').style.display = 'none';
+            document.querySelector('.login-form').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

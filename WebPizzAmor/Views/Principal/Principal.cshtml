@@ -1,0 +1,342 @@
+﻿@{
+	Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0" />
+	<title>PizzAmor</title>
+	<link rel="icon" href="/imgPrincipal/logoVentana.png" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+	<header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="customer-support">
+					<i class="fa-solid fa-headset"></i>
+					<div class="content-customer-support">
+						<span class="text">Soporte al cliente</span>
+						<span class="number">477 232 1406</span>
+					</div>
+				</div>
+
+				<div class="container-logo">
+					<img src="/imgPrincipal/logoVentana.png" alt="PizzAmor Logo" width="40">
+					<h1 class="logo"><a href="/">PizzAmor</a></h1>
+				</div>
+
+				<style>
+					.user-avatar {
+						width: 40px;
+						height: 40px; 
+						border-radius: 50%;
+						object-fit: cover;
+						border: 2px solid #ffffff; 
+					}
+				</style>
+				<div class="container-user">
+					@if (Context.Session.GetString("Usuario") != null)
+					{
+						<img src="@Context.Session.GetString("ImagenPerfil")" class="user-avatar" alt="Imagen de usuario" />
+					}
+					else
+					{
+						<a href="@Url.Action("Login", "Account")"><i class="fa-solid fa-user"></i></a>
+					}
+					<i class="fa-solid fa-basket-shopping"></i>
+					<div class="content-shopping-cart">
+						<span class="text">Carrito</span>
+						<span class="number">(0)</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class="fa-solid fa-bars"></i>
+				<ul class="menu">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="@Url.Action("Menu", "Menu")">Menú</a></li>
+					<li><a href="#">Reservas</a></li>
+					<li><a href="#">Pedidos en Línea</a></li>
+					<li><a href="#">Sobre Nosotros</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+
+				<form class="search-form">
+					<input type="search" placeholder="Buscar..." />
+					<button class="btn-search">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+
+	<section class="banner">
+		<div class="content-banner">
+			<p>Pizza Artesanal</p>
+			<h2>Hecha con Ingredientes Frescos <br />¡Sabor Único!</h2>
+			<a href="#">Ordena Ahora</a>
+		</div>
+	</section>
+
+	<main class="main-content">
+		<section class="container container-features">
+			<div class="card-feature">
+				<i class="fa-solid fa-plane-up"></i>
+				<div class="feature-content">
+					<span>Envío gratuito</span>
+					<p>En pedido superior a $1500</p>
+				</div>
+			</div>
+			<div class="card-feature">
+				<i class="fa-solid fa-wallet"></i>
+				<div class="feature-content">
+					<span>Contrareembolso</span>
+					<p>100% garantía de devolución de dinero</p>
+				</div>
+			</div>
+			<div class="card-feature">
+				<i class="fa-solid fa-gift"></i>
+				<div class="feature-content">
+					<span>Tarjeta regalo especial</span>
+					<p>Ofrece bonos especiales con regalo</p>
+				</div>
+			</div>
+			<div class="card-feature">
+				<i class="fa-solid fa-headset"></i>
+				<div class="feature-content">
+					<span>Servicio al cliente</span>
+					<p>LLámenos al 477 232 1406</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="container top-categories">
+			<h1 class="heading-1">Nuestras Pizzas</h1>
+			<div class="container-categories">
+				<div class="card-category category-margherita">
+					<p>Margarita</p>
+					<span>Ver detalles</span>
+				</div>
+				<div class="card-category category-pepperoni">
+					<p>Pepperoni</p>
+					<span>Ver detalles</span>
+				</div>
+				<div class="card-category category-fourcheese">
+					<p>Cuatro Quesos</p>
+					<span>Ver detalles</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="container top-products">
+			<h1 class="heading-1">Mejores Productos</h1>
+
+			<div class="container-options">
+				<span class="active">Destacados</span>
+				<span>Más recientes</span>
+				<span>Mejores Vendidos</span>
+			</div>
+
+			<div class="container-products">
+				<!-- Producto 1 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/pizzaMargaritaFondo.jpeg" alt="Pizza Margarita" />
+						<span class="discount">-13%</span>
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza Margarita</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$4.60 <span>$5.30</span></p>
+					</div>
+				</div>
+				<!-- Producto 2 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/pizza4QuesosFondo.jpeg"
+							 alt="Pizza 4 Quesos" />
+						<span class="discount">-22%</span>
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza 4 Quesos</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$5.70 <span>$7.30</span></p>
+					</div>
+				</div>
+				<!--  -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/hawaianaFondoBlanco.jpeg"
+							 alt="Pizza Hawaiana" />
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza Hawaiana</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$3.20</p>
+					</div>
+				</div>
+				<!--  -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/PepperoniFondoBlanco.jpeg" alt="Pizza Pepperoni" />
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza Pepperoni</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$5.60</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery">
+			<img src="/imgPrincipal/pizza1.jpg"
+				 alt="Gallery Img1"
+				 class="gallery-img-1" /><img src="/imgPrincipal/pizza2.jpg"
+									  alt="Gallery Img2"
+									  class="gallery-img-2" /><img src="/imgPrincipal/horno-pizza-portada.jpg"
+										alt="Gallery Img3"
+										class="gallery-img-3" /><img src="/imgPrincipal/pizza4.jpg"
+														   alt="Gallery Img4"
+														   class="gallery-img-4" /><img src="/imgPrincipal/pizza5.jpg"
+																						alt="Gallery Img5"
+																						class="gallery-img-5" />
+		</section>
+
+		<section class="container specials">
+			<h1 class="heading-1">Especiales</h1>
+
+			<div class="container-products">
+				<!-- Producto 1 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/PizzaMexicanaFondoBlanco.jpeg" alt="Pizza Mexicana" />
+						<span class="discount">-13%</span>
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza Mexicana</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$4.60 <span>$5.30</span></p>
+					</div>
+				</div>
+				<!-- Producto 2 -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/PepperoniFondoBlanco.jpeg"
+							 alt="Pizza Peperonni" />
+						<span class="discount">-22%</span>
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza Pepperoni</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$5.70 <span>$7.30</span></p>
+					</div>
+				</div>
+				<!--  -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/PizzaHawaianaFondoBlanco2.jpeg" alt="Pizza Hawaiana" />
+						<span class="discount">-30%</span>
+					</div>
+					<div class="content-card-product">
+						<h3>Pizza Hawaiana</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$3.85 <span>$5.50</span></p>
+					</div>
+				</div>
+				<!--  -->
+				<div class="card-product">
+					<div class="container-img">
+						<img src="/imgPrincipal/PizzaChampiiñonesFondoBlanco.jpeg" alt="Pizza Champiñones" />
+					</div>
+					<div class="content-card-product">
+						<div class="stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-regular fa-star"></i>
+						</div>
+						<h3>Pizza Champiñones</h3>
+						<span class="add-cart">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</span>
+						<p class="price">$5.60</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container container-footer">
+			<div class="menu-footer">
+				<div class="contact-info">
+					<p class="title-footer">Información de Contacto</p>
+					<ul>
+						<li>
+							Dirección: P.º de los Insurgentes 2112, San Jose de las Piletas,
+							37150 León de los Aldama, Gto.
+						</li>
+						<li>Teléfono: 477 232 1406</li>
+						<li>EmaiL: pizzAmor@gmail.com</li>
+					</ul>
+					<div class="social-icons">
+						<span class="facebook">
+							<i class="fa-brands fa-facebook-f"></i>
+						</span>
+						<span class="instagram">
+							<i class="fa-brands fa-instagram"></i>
+						</span>
+					</div>
+				</div>
+
+				<div class="information">
+					<p class="title-footer">Información</p>
+					<ul>
+						<li><a href="#">Acerca de Nosotros</a></li>
+						<li><a href="#">Información Delivery</a></li>
+						<li><a href="#">Politicas de Privacidad</a></li>
+						<li><a href="#">Términos y condiciones</a></li>
+						<li><a href="#">Contactános</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<img src="/imgPrincipal/payment.png" alt="Pagos">
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"></script>
+</body>
+</html>
+

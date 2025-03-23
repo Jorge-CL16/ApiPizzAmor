@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\imgPrincipal\banner.jpg" />
+    <None Include="wwwroot\imgPrincipal\bannerPizza.jpg" />
+    <None Include="wwwroot\imgPrincipal\blog-1.jpg" />
+    <None Include="wwwroot\imgPrincipal\blog-2.jpg" />
+    <None Include="wwwroot\imgPrincipal\blog-3.jpg" />
+    <None Include="wwwroot\imgPrincipal\cafe-australiano.jpg" />
+    <None Include="wwwroot\imgPrincipal\cafe-helado.jpg" />
+    <None Include="wwwroot\imgPrincipal\cafe-ingles.jpg" />
+    <None Include="wwwroot\imgPrincipal\cafe-irish.jpg" />
+    <None Include="wwwroot\imgPrincipal\cafe-liqueurs.jpg" />
+    <None Include="wwwroot\imgPrincipal\cafe-viena.jpg" />
+    <None Include="wwwroot\imgPrincipal\capuchino-category.jpg" />
+    <None Include="wwwroot\imgPrincipal\expreso-category.jpg" />
+    <None Include="wwwroot\imgPrincipal\gallery1.jpg" />
+    <None Include="wwwroot\imgPrincipal\gallery2.jpg" />
+    <None Include="wwwroot\imgPrincipal\gallery3.jpg" />
+    <None Include="wwwroot\imgPrincipal\gallery4.jpg" />
+    <None Include="wwwroot\imgPrincipal\gallery5.jpg" />
+    <None Include="wwwroot\imgPrincipal\hawaianaFondoBlanco.jpeg" />
+    <None Include="wwwroot\imgPrincipal\horno-pizza-portada.jpg" />
+    <None Include="wwwroot\imgPrincipal\logoVentana.png" />
+    <None Include="wwwroot\imgPrincipal\moca-category.jpg" />
+    <None Include="wwwroot\imgPrincipal\payment.png" />
+    <None Include="wwwroot\imgPrincipal\PepperoniFondoBlanco.jpeg" />
+    <None Include="wwwroot\imgPrincipal\pizza1.jpg" />
+    <None Include="wwwroot\imgPrincipal\pizza2.jpg" />
+    <None Include="wwwroot\imgPrincipal\pizza4.jpg" />
+    <None Include="wwwroot\imgPrincipal\pizza4QuesosFondo.jpeg" />
+    <None Include="wwwroot\imgPrincipal\pizza5.jpg" />
+    <None Include="wwwroot\imgPrincipal\PizzaChampiiñonesFondoBlanco.jpeg" />
+    <None Include="wwwroot\imgPrincipal\PizzaFourCheese.webp" />
+    <None Include="wwwroot\imgPrincipal\PizzaHawaianaFondoBlanco2.jpeg" />
+    <None Include="wwwroot\imgPrincipal\pizzaMargarita.jpeg" />
+    <None Include="wwwroot\imgPrincipal\pizzaMargaritaFondo.jpeg" />
+    <None Include="wwwroot\imgPrincipal\PizzaMexicanaFondoBlanco.jpeg" />
+    <None Include="wwwroot\imgPrincipal\pizzaPeperoni.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,95 @@
+﻿@model List<WebPizzAmor.Models.OrdenDigitalData>
+
+@{
+    Layout = null;
+}
+
+@{
+    ViewData["Title"] = "Pedidos del Repartidor";
+}
+
+<h2 style="color: #f9f5f0; text-align: center; font-family: 'Segoe UI Black';">Pedidos del Repartidor</h2>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">#</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Cliente</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Teléfono</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Domicilio</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Ingredientes</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Tamaño</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Total</th>
+            <th style="background-color: #1f53c5; color: #f9f5f0; text-align: center;">Entregado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pedido in Model)
+        {
+            <tr style="background-color: #0A2647; color: #f9f5f0;">
+                <td style="text-align: center;">@pedido.IdOrdenD</td>
+                <td>@pedido.NombreCliente</td>
+                <td>@pedido.Telefono</td>
+                <td>@pedido.Domicilio</td>
+                <td>@pedido.SaborIngredientes</td>
+                <td>@pedido.TamanioPizza</td>
+                <td>@pedido.MontoTotal.ToString("C")</td>
+                <td style="text-align: center;">
+                    <form method="post" action="@Url.Action("MarcarEntregado", "PedidosRepartidor")">
+                        <input type="hidden" name="idOrden" value="@pedido.IdOrdenD" />
+                        <input type="checkbox" name="entregado" value="true" style="transform: scale(1.5);" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    body {
+        background-image: url('/fondoRepartidor/fondoRepartidor.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+ 
+    .table {
+        width: 100%;
+        margin-top: 30px;
+        border-radius: 4px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #0A2647;
+    }
+
+        .table th, .table td {
+            padding: 12px;
+            text-align: left;
+            font-family: 'Segoe UI Black';
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #1e3a56;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #1f53c5;
+    }
+
+    .table-bordered th {
+        background-color: #1f53c5;
+    }
+
+    .table td {
+        font-size: 16px;
+    }
+
+        .table td input[type="checkbox"] {
+            cursor: pointer;
+        }
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+</style>

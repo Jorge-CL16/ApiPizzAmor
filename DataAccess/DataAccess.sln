@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess.csproj", "{B9BD93C7-BA4D-4D22-B4D3-007F76C6493E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "..\WebApi\WebApi.csproj", "{1AD60103-2D6F-4258-9DEE-A99DFD359811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPizzAmor", "..\WebPizzAmor\WebPizzAmor.csproj", "{8BADFF90-9AAD-44EC-B499-E2C376A48F65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9BD93C7-BA4D-4D22-B4D3-007F76C6493E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BD93C7-BA4D-4D22-B4D3-007F76C6493E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BD93C7-BA4D-4D22-B4D3-007F76C6493E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BD93C7-BA4D-4D22-B4D3-007F76C6493E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD60103-2D6F-4258-9DEE-A99DFD359811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD60103-2D6F-4258-9DEE-A99DFD359811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD60103-2D6F-4258-9DEE-A99DFD359811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD60103-2D6F-4258-9DEE-A99DFD359811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BADFF90-9AAD-44EC-B499-E2C376A48F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BADFF90-9AAD-44EC-B499-E2C376A48F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BADFF90-9AAD-44EC-B499-E2C376A48F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BADFF90-9AAD-44EC-B499-E2C376A48F65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {398D737C-ED9B-46AE-B7FD-E3100D8B616A}
+	EndGlobalSection
+EndGlobal
