@@ -62,7 +62,11 @@ namespace WebPizzAmor.Controllers
                     };
 
                     _context.OrdenFisicas.Add(nuevaOrden);
-                    await _context.SaveChangesAsync();
+                    var result = await _context.SaveChangesAsync();
+                    if (result == 0)
+                    {
+                        ModelState.AddModelError("", "Error al guardar en la base de datos.");
+                    }
 
                     TempData["SuccessMessage"] = "Orden guardada correctamente!";
                     return RedirectToAction("Crear");

@@ -4773,23 +4773,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jorge\\.nuget\\packages\\": {},
+    "C:\\Users\\Jsant\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\WebPizzAmor.csproj",
+      "projectUniqueName": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\WebPizzAmor.csproj",
       "projectName": "WebPizzAmor",
-      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\WebPizzAmor.csproj",
-      "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\",
+      "projectPath": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\WebPizzAmor.csproj",
+      "packagesPath": "C:\\Users\\Jsant\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4805,8 +4805,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -4821,7 +4821,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -4861,7 +4861,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
