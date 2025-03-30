@@ -4716,11 +4716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\WEBFinalCopia\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\WEBFinalCopia\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\WEBFinalCopia\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

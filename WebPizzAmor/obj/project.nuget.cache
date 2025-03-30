@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PDcS1NwnQvs=",
+  "dgSpecHash": "VxECnHiv/9c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jorge\\OneDrive\\Documentos\\WEBFinalCopia\\WebPizzAmor\\WebPizzAmor.csproj",
+  "projectFilePath": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\WebPizzAmor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorge\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
