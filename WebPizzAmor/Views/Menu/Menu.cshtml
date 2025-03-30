@@ -7,59 +7,260 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú de Pizzas</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú de Pizzas - PizzAmor</title>
+    <link rel="icon" href="/imgPrincipal/logoVentana.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
 
     <style>
         .card {
-            height: 400px; 
+            height: 500px;
             display: flex;
             flex-direction: column;
+            transition: transform 0.3s ease;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            border: none;
         }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+            }
 
         .card-img-top {
             width: 100%;
-            height: 200px;
+            height: 220px;
             object-fit: contain;
+            padding: 10px;
+            background-color: transparent;
         }
 
         .card-body {
             flex-grow: 1;
+            padding: 25px; 
         }
 
-        .card-title, .card-text, .fw-bold, .text-muted {
-            margin-bottom: 10px;
+        .card-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #333;
+            line-height: 1.2;
         }
+
+        .card-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .fw-bold {
+            font-size: 1.8rem;
+            color: #000;
+            margin-bottom: 15px;
+            font-weight: 700 !important;
+        }
+
+        .text-muted {
+            font-size: 1.3rem;
+            color: #777 !important;
+            margin-bottom: 20px;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ffffff;
+            margin-right: 10px;
+        }
+
+        .menu-container {
+            padding: 3rem 0;
+            background-color: #f9f9f9;
+        }
+
+        .menu-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+            .menu-title:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 120px;
+                height: 5px;
+                background-color: #FFD700;
+                border-radius: 3px;
+            }
+
+        .card-container {
+            padding: 15px;
+        }
+
+        .btn-add-to-cart {
+            background-color: #FFD700;
+            color: #333;
+            font-weight: 600;
+            padding: 10px 25px;
+            border-radius: 50px;
+            border: none;
+            transition: all 0.3s ease;
+            font-size: 1.3rem;
+            margin-top: auto;
+        }
+
+            .btn-add-to-cart:hover {
+                background-color: #ffc107;
+                transform: scale(1.05);
+                color: #000;
+            }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="my-4 text-center">Menú de PizzAmor 🍕</h1>
-
-        <div class="row">
-            @foreach (var pizza in Model)
-            {
-                <div class="col-md-4 mb-4">
-                    <div class="card shadow-sm">
-                        <img src="@pizza.UrlMenu"
-                             class="card-img-top"
-                             alt="@pizza.NombrePizza"
-                             onerror="this.onerror=null;this.src='';">
-
-                        <div class="card-body">
-                            <h5 class="card-title">@pizza.NombrePizza</h5>
-                            <p class="card-text">@pizza.DescripPizza</p>
-                            <p class="fw-bold">Precio: $@pizza.Precio</p>
-                            <p class="text-muted">Tamaño: @pizza.TamanioPizza</p>
-                        </div>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">477 232 1406</span>
                     </div>
                 </div>
-            }
+
+                <div class="container-logo">
+                    <img src="/imgPrincipal/logoVentana.png" alt="PizzAmor Logo" width="40">
+                    <h1 class="logo"><a href="/">PizzAmor</a></h1>
+                </div>
+
+                <div class="container-user">
+                    @if (Context.Session.GetString("Usuario") != null)
+                    {
+                        <img src="@Context.Session.GetString("ImagenPerfil")" class="user-avatar" alt="Imagen de usuario" />
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Login", "Account")"><i class="fa-solid fa-user"></i></a>
+                    }
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="@Url.Action("Principal", "Principal")">Inicio</a></li>
+                    <li><a href="@Url.Action("Menu", "Menu")">Menú</a></li>
+                    <li><a href="#">Realiza una Orden</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main class="menu-container">
+        <div class="container">
+            <h1 class="menu-title">Nuestro Menú de Pizzas 🍕</h1>
+
+            <div class="row">
+                @foreach (var pizza in Model)
+                {
+                    <div class="col-md-4 col-sm-6 mb-4 card-container">
+                        <div class="card shadow-sm">
+                            <img src="@pizza.UrlMenu"
+                                 class="card-img-top"
+                                 alt="@pizza.NombrePizza"
+                                 onerror="this.onerror=null;this.src='/imgPrincipal/pizza-placeholder.jpg';">
+
+                            <div class="card-body">
+                                <h5 class="card-title">@pizza.NombrePizza</h5>
+                                <p class="card-text">@pizza.DescripPizza</p>
+                                <p class="fw-bold">$@pizza.Precio.ToString("N2")</p>
+                                <p class="text-muted">Tamaño: @pizza.TamanioPizza</p>
+                                <button class="btn-add-to-cart mt-auto">
+                                    <i class="fas fa-cart-plus me-2"></i>Añadir a la Orden
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: P.º de los Insurgentes 2112, San Jose de las Piletas,
+                            37150 León de los Aldama, Gto.
+                        </li>
+                        <li>Teléfono: 477 232 1406</li>
+                        <li>EmaiL: pizzAmor@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Politicas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <img src="/imgPrincipal/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 </body>
 </html>
