@@ -1,0 +1,178 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orden de Pizza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" />
+</head>
+<style>
+    .hover-warning:hover {
+        color: #ffc107 !important; /* Amarillo */
+        transition: color 0.2s ease-in-out;
+    }
+</style>
+<body class="container py-4">
+    <h2 class="text-center mb-4" style="font-family: Segoe UI Black">
+        Orden🍕
+    </h2>
+    <section class="form-registroOrden">
+        @using (Html.BeginForm("AgregarOrden", "Orden", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <form>
+                <!-- Numero de Empleado -->
+                <div class="mb-3">
+                    <label for="NumeroEmpleado"
+                           class="form-label"
+                           style="font-family: Segoe UI Black">Numero de Empleado:</label>
+                    <input type="number"
+                           class="form-control"
+                           style="background-color: rgba(77, 77, 77, 0.25)"
+                           id="NumeroEmpleado"
+                           placeholder="Numero de Empleado"
+                           required />
+                </div>
+
+                <!-- Refresco -->
+                <div class="mb-3">
+                    <label class="form-label" style="font-family: Segoe UI Black">Refresco:</label>
+                    <select class="form-select"
+                            id="refresco"
+                            name="refresco"
+                            style="background-color: rgba(77, 77, 77, 0.25)">
+                        <option value="" selected disabled>Selecciona una bebida</option>
+                        <option value="Coca-Cola">Coca-Cola</option>
+                        <option value="Manzanita">Manzanita</option>
+                        <option value="Zuba">Zuba</option>
+                    </select>
+                </div>
+
+                <!-- Tamaño de la Pizza -->
+                <div class="mb-3">
+                    <label class="form-label" style="font-family: Segoe UI Black">Tamaño Pizza:</label>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="radio"
+                               name="tamaño"
+                               id="Chica"
+                               value="Chica"
+                               required />
+                        <label class="form-check-label" for="Chica">Chica</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="radio"
+                               name="tamaño"
+                               id="Mediana"
+                               value="Mediana"
+                               required />
+                        <label class="form-check-label" for="Mediana">Mediana</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="radio"
+                               name="tamaño"
+                               id="Grande"
+                               value="Grande"
+                               required />
+                        <label class="form-check-label" for="Grande">Grande</label>
+                    </div>
+                </div>
+
+                <!-- Ingredientes Adicionales -->
+                <div class="mb-3">
+                    <label class="form-label" style="font-family: Segoe UI Black">Ingredientes:</label>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="checkbox"
+                               name="ingredientes"
+                               id="peperoni"
+                               value="peperoni" />
+                        <label class="form-check-label" for="peperoni">Peperoni</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="checkbox"
+                               name="ingredientes"
+                               id="champinones"
+                               value="champinones" />
+                        <label class="form-check-label" for="champinones">Champiñones</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="checkbox"
+                               name="ingredientes"
+                               id="extraQueso"
+                               value="extraQueso" />
+                        <label class="form-check-label" for="extraQueso">Extra Queso</label>
+                    </div>
+                </div>
+
+                <!-- Fecha -->
+                <div class="mb-3">
+                    <label for="FechaOrden"
+                           class="form-label"
+                           style="font-family: Segoe UI Black">Fecha de Orden🍕:</label>
+                    <input type="text"
+                           class="form-control"
+                           style="background-color: rgba(77, 77, 77, 0.25)"
+                           id="FechaOrden"
+                           name="fecha"
+                           placeholder="Fecha"
+                           required />
+                </div>
+
+                <!-- url -->
+                <div class="mb-3">
+                    <label for="URL"
+                           class="form-label"
+                           style="font-family: Segoe UI Black">URL🍕:</label>
+                    <input type="text"
+                           class="form-control"
+                           style="background-color: rgba(77, 77, 77, 0.25)"
+                           id="URL"
+                           name="url"
+                           placeholder="URL"
+                           required />
+                </div>
+
+                <!-- Total -->
+                <div class="mb-3">
+                    <label for="TotalOrd"
+                           class="form-label"
+                           style="font-family: Segoe UI Black">Total de la Orden🍕:</label>
+                    <input type="number"
+                           class="form-control"
+                           style="background-color: rgba(77, 77, 77, 0.25)"
+                           id="TotalOrd"
+                           name="monto"
+                           placeholder="Total"
+                           required />
+                </div>
+
+                <!-- Botón de Enviar -->
+                <div class="d-grid">
+                    <button type="submit"
+                            class="btn hover-warning"
+                            style="
+            color: rgb(249, 245, 240);
+            background-color: rgb(10, 38, 71);
+            font-family: Segoe UI Black;
+                        ">
+                        Completar Orden🍕
+                    </button>
+                </div>
+            </form>
+        }
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="/imgC/fondo.jpg">
+</head>
+
+<body>
+    <section class="form-Empleado">
+        @using (Html.BeginForm("TablaEmpleado", "Empleado", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <h4>Tabla de Empleados</h4>
+            <table class="table table-success table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Edad</th>
+                        <th scope="col">Sexo</th>
+                        <th scope="col">Puesto</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.IdEmpleado</td>
+                            <td>@item.NombreE</td>
+                            <td>@item.ApellidoE</td>
+                            <td>@item.Edad</td>
+                            <td>@item.Sexo</td>
+                            <td>@item.Puesto</td>
+                            <td>
+                                @Html.ActionLink("Agregar", "Empleado", new { IdEmpleado = item.IdEmpleado }, new { @class = "btn btn-primary btn-sm text-white mt-2" })
+                                @Html.ActionLink("Editar", "ModificarEmpleado", new { idEmpleado = item.IdEmpleado }, new { @class = "btn btn-warning btn-sm mt-2 text-white" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </section>
+</body>
+</html>
