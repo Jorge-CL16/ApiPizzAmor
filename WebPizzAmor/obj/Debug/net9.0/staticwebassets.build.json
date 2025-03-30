@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aky1kB1m2yK25VL2XpRbj0edf69qexoW0ot6Z7lVEGw=",
+  "Hash": "hwMYD7yDL3hsuduLAc/Lz1w0tWZLELJLyqYUSJj7VU8=",
   "Source": "WebPizzAmor",
   "BasePath": "_content/WebPizzAmor",
   "Mode": "Default",
@@ -878,6 +878,27 @@
       "OriginalItemSpec": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
+      "Identity": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\ntkn020r6q-z08r9vrw00.gz",
+      "SourceId": "WebPizzAmor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebPizzAmor",
+      "RelativePath": "css/style#[.{fingerprint=z08r9vrw00}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "43tjn1i979",
+      "Integrity": "AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\p7whkhu9g2-h1s4sie4z3.gz",
       "SourceId": "WebPizzAmor",
       "SourceType": "Discovered",
@@ -1445,6 +1466,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
+      "SourceId": "WebPizzAmor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\",
+      "BasePath": "_content/WebPizzAmor",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z08r9vrw00",
+      "Integrity": "Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\styles.css",
       "SourceId": "WebPizzAmor",
       "SourceType": "Discovered",
@@ -1632,6 +1674,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\PizzaMexicanaFondoBlanco.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgC\\fondo.jpg",
+      "SourceId": "WebPizzAmor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\",
+      "BasePath": "_content/WebPizzAmor",
+      "RelativePath": "imgC/fondo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3zqtkjspn",
+      "Integrity": "y47+w0Oz+8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgC\\fondo.jpg"
     },
     {
       "Identity": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\banner.jpg",
@@ -3971,6 +4034,304 @@
       ]
     },
     {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\ntkn020r6q-z08r9vrw00.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001748251748"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "571"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\ntkn020r6q-z08r9vrw00.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.z08r9vrw00.css",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\ntkn020r6q-z08r9vrw00.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001748251748"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "571"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z08r9vrw00"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.z08r9vrw00.css",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z08r9vrw00"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.z08r9vrw00.css.gz",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\ntkn020r6q-z08r9vrw00.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z08r9vrw00"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AJXQNBjpxPsiS+naX9GYSMVZPkJXvQ9TaM3CcXLm5L8="
+        }
+      ]
+    },
+    {
       "Route": "css/styles.0in3934l7g.css",
       "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\compressed\\es4lq3u590-0in3934l7g.gz",
       "Selectors": [
@@ -5137,6 +5498,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-shrpEwA0CJAiSvokGptSiEKPL4mhwuHHE0gzB4tb30o="
+        }
+      ]
+    },
+    {
+      "Route": "imgC/fondo.jpg",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgC\\fondo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66979"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y47+w0Oz+8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y47+w0Oz+8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw="
+        }
+      ]
+    },
+    {
+      "Route": "imgC/fondo.p3zqtkjspn.jpg",
+      "AssetFile": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgC\\fondo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66979"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y47+w0Oz+8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 06:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3zqtkjspn"
+        },
+        {
+          "Name": "label",
+          "Value": "imgC/fondo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y47+w0Oz+8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw="
         }
       ]
     },

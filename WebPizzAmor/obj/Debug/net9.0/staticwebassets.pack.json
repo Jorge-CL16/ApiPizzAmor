@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\fondoRepartidor\\fondoRepartidor.jpg",
       "PackagePath": "staticwebassets\\fondoRepartidor\\fondoRepartidor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgC\\fondo.jpg",
+      "PackagePath": "staticwebassets\\imgC\\fondo.jpg"
     },
     {
       "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PepperoniFondoBlanco.jpeg",

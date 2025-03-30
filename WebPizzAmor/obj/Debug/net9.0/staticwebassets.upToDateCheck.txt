@@ -39,6 +39,7 @@ C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\css\style.css
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
@@ -62,6 +63,7 @@ C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\css\site.css
+wwwroot\css\style.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\fondoRepartidor\fondoRepartidor.jpg
@@ -71,6 +73,7 @@ wwwroot\img\5c9e7d24-954d-4e79-b65c-69853d1aeac9.jpg
 wwwroot\img\7e2064d4-686a-47e1-ba89-bc159d99e03d.jpg
 wwwroot\img\hawaianaFondoBlanco.jpeg
 wwwroot\img\PizzaMexicanaFondoBlanco.jpeg
+wwwroot\imgC\fondo.jpg
 wwwroot\imgPrincipal\banner.jpg
 wwwroot\imgPrincipal\bannerPizza.jpg
 wwwroot\imgPrincipal\blog-1.jpg

@@ -449,3 +449,4 @@ C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\obj\Debu
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\obj\Debug\net9.0\WebPizzAmor.pdb
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\obj\Debug\net9.0\WebPizzAmor.genruntimeconfig.cache
 C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\obj\Debug\net9.0\ref\WebPizzAmor.dll
+C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\obj\Debug\net9.0\compressed\ntkn020r6q-z08r9vrw00.gz

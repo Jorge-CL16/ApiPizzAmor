@@ -12,6 +12,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 04:30:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPizzAmor/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3496"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 06:02:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPizzAmor/css/style.z08r9vrw00.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z08r9vrw00"},{"Name":"integrity","Value":"sha256-Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI="},{"Name":"label","Value":"_content/WebPizzAmor/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3496"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Y5Yi342lYnoXWwBh2BN4fXUGvAq10gV19wA8FDxYxcI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 06:02:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebPizzAmor/css/styles.0in3934l7g.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -119,6 +131,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m3jocmkjuw"},{"Name":"integrity","Value":"sha256-shrpEwA0CJAiSvokGptSiEKPL4mhwuHHE0gzB4tb30o="},{"Name":"label","Value":"_content/WebPizzAmor/img/PizzaMexicanaFondoBlanco.jpeg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14341"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022shrpEwA0CJAiSvokGptSiEKPL4mhwuHHE0gzB4tb30o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 04:30:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPizzAmor/imgC/fondo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgC\fondo.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y47\u002Bw0Oz\u002B8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66979"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022y47\u002Bw0Oz\u002B8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 06:02:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebPizzAmor/imgC/fondo.p3zqtkjspn.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgC\fondo.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p3zqtkjspn"},{"Name":"integrity","Value":"sha256-y47\u002Bw0Oz\u002B8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw="},{"Name":"label","Value":"_content/WebPizzAmor/imgC/fondo.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66979"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022y47\u002Bw0Oz\u002B8nygXxKxnDq1mXIE9CWbRiNbpGeGj/ierw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 06:02:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebPizzAmor/imgPrincipal/banner.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imgPrincipal\banner.jpg'))</AssetFile>
