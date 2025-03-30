@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+@model DataAccess.Models.Refresco
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Refrescos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/imgC/fondo.jpg">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section class="form-registroRefresco">
+        @using (Html.BeginForm("ModificarRefresco", "Refresco", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <h4>Modificar Refresco</h4>
+            <input type="hidden" name="idRefresco" value="@Model.IdRefresco" />
+            <input class="controls" type="text" name="marca" id="Marca" value="@Model.Marca" placeholder="Ingresa la marca del refresco">
+            <input class="controls" type="text" name="precio" id="Precio" value="@Model.PrecioR" placeholder="Ingresa el precio">
+            <input class="controls" type="text" name="tamanio" id="Tamanio" value="@Model.TamanioR" placeholder="Ingresa el tamaño del refresco">
+            <input class="botons" type="submit" value="Guardar">
+        }
+    </section>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+@model DataAccess.Models.Empleado
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Empleados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/imgC/fondo.jpg">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <section class="form-registroEmpleado">
+        @using (Html.BeginForm("ModificarEmpleado", "Empleado", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <h4>Modificar Empleado</h4>
+            <input type="hidden" name="idEmpleado" value="@Model.IdEmpleado" />
+            <input class="controls" type="text" name="nombre" id="Nombre" value="@Model.NombreE" placeholder="Ingresa el nombre del empleado">
+            <input class="controls" type="text" name="apellido" id="Apellido" value="@Model.ApellidoE" placeholder="Ingresa el apellido del empleado">
+            <input class="controls" type="text" name="edad" id="Edad" value="@Model.Edad" placeholder="Ingresa la edad del empleado">
+            <select id="Sexo" name="sexo" value="@Model.Sexo" class="controls">
+                <option value="" selected disabled>Selecciona el sexo del empleado</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+            <select id="Puesto" name="puesto" value="@Model.Puesto" class="controls">
+                <option value="" selected disabled>Selecciona el puesto del empleado</option>
+                <option value="Cocinero(a)">Cocinero(a)</option>
+                <option value="Mesero(a)">Mesero(a)</option>
+            </select>
+            <input class="botons" type="submit" value="Guardar">
+        }
+    </section>
+</body>
+</html>
