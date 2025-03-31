@@ -1,443 +1,443 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WebPizzAmor.bundle.scp.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WebPizzAmor.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebPizzAmor.yeqy10goi4.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\fondoRepartidor\\fondoRepartidor.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\fondoRepartidor\\fondoRepartidor.jpg",
       "PackagePath": "staticwebassets\\fondoRepartidor\\fondoRepartidor.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgC\\fondo.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgC\\fondo.jpg",
       "PackagePath": "staticwebassets\\imgC\\fondo.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PepperoniFondoBlanco.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PepperoniFondoBlanco.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\PepperoniFondoBlanco.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaChampiiñonesFondoBlanco.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaChampiiñonesFondoBlanco.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\PizzaChampiiñonesFondoBlanco.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaFourCheese.webp",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaFourCheese.webp",
       "PackagePath": "staticwebassets\\imgPrincipal\\PizzaFourCheese.webp"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaHawaianaFondoBlanco2.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaHawaianaFondoBlanco2.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\PizzaHawaianaFondoBlanco2.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaMexicanaFondoBlanco.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\PizzaMexicanaFondoBlanco.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\PizzaMexicanaFondoBlanco.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\banner.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\banner.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\banner.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\bannerPizza.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\bannerPizza.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\bannerPizza.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\blog-1.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\blog-1.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\blog-1.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\blog-2.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\blog-2.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\blog-2.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\blog-3.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\blog-3.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\blog-3.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-australiano.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-australiano.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\cafe-australiano.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-helado.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-helado.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\cafe-helado.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-ingles.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-ingles.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\cafe-ingles.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-irish.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-irish.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\cafe-irish.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-liqueurs.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-liqueurs.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\cafe-liqueurs.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-viena.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\cafe-viena.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\cafe-viena.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\capuchino-category.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\capuchino-category.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\capuchino-category.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\expreso-category.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\expreso-category.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\expreso-category.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery1.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery1.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\gallery1.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery2.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery2.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\gallery2.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery3.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery3.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\gallery3.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery4.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery4.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\gallery4.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery5.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\gallery5.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\gallery5.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\hawaianaFondoBlanco.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\hawaianaFondoBlanco.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\hawaianaFondoBlanco.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\horno-pizza-portada.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\horno-pizza-portada.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\horno-pizza-portada.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\logoVentana.png",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\logoVentana.png",
       "PackagePath": "staticwebassets\\imgPrincipal\\logoVentana.png"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\moca-category.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\moca-category.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\moca-category.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\payment.png",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\payment.png",
       "PackagePath": "staticwebassets\\imgPrincipal\\payment.png"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza1.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza1.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizza1.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza2.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza2.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizza2.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza4.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza4.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizza4.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza4QuesosFondo.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza4QuesosFondo.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizza4QuesosFondo.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza5.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizza5.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizza5.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizzaMargarita.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizzaMargarita.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizzaMargarita.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizzaMargaritaFondo.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizzaMargaritaFondo.jpeg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizzaMargaritaFondo.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizzaPeperoni.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\imgPrincipal\\pizzaPeperoni.jpg",
       "PackagePath": "staticwebassets\\imgPrincipal\\pizzaPeperoni.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\145fd6c8-5100-4ea7-b82a-d0dc6518f490.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\145fd6c8-5100-4ea7-b82a-d0dc6518f490.jpg",
       "PackagePath": "staticwebassets\\img\\145fd6c8-5100-4ea7-b82a-d0dc6518f490.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\36f7dbce-dee1-4d2b-96cd-01fcf9b1e6f0.png",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\36f7dbce-dee1-4d2b-96cd-01fcf9b1e6f0.png",
       "PackagePath": "staticwebassets\\img\\36f7dbce-dee1-4d2b-96cd-01fcf9b1e6f0.png"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\5c9e7d24-954d-4e79-b65c-69853d1aeac9.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\5c9e7d24-954d-4e79-b65c-69853d1aeac9.jpg",
       "PackagePath": "staticwebassets\\img\\5c9e7d24-954d-4e79-b65c-69853d1aeac9.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\7e2064d4-686a-47e1-ba89-bc159d99e03d.jpg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\7e2064d4-686a-47e1-ba89-bc159d99e03d.jpg",
       "PackagePath": "staticwebassets\\img\\7e2064d4-686a-47e1-ba89-bc159d99e03d.jpg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\PizzaMexicanaFondoBlanco.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\PizzaMexicanaFondoBlanco.jpeg",
       "PackagePath": "staticwebassets\\img\\PizzaMexicanaFondoBlanco.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\hawaianaFondoBlanco.jpeg",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\img\\hawaianaFondoBlanco.jpeg",
       "PackagePath": "staticwebassets\\img\\hawaianaFondoBlanco.jpeg"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\jorge\\OneDrive\\Documentos\\ProyectoRepo\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "C:\\Users\\Jsant\\OneDrive\\Escritorio\\COPIAFINALPIZZA\\ApiPizzAmor\\WebPizzAmor\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
