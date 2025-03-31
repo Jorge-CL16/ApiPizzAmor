@@ -11,9 +11,11 @@ namespace WebPizzAmor.Controllers
     {
         private readonly AppDbContext _context;
 
+
         public ListaController(AppDbContext context)
         {
             _context = context;
+
         }
 
         [HttpGet]
@@ -24,12 +26,15 @@ namespace WebPizzAmor.Controllers
                 return View(context.OrdenFisicas.ToList());
             }
         }
-        //public IActionResult TablaOrdenF()
-        //{
-        //    using (AppDbContext context = new AppDbContext())
-        //    {
-        //        return View(context.OrdenFisicas.ToList());
-        //    }
-        //}
+
+        [HttpGet]
+        public IActionResult ListaDigital()
+        {
+            using (AppDbContext context2 = new AppDbContext())
+            {
+                return View(context2.OrdenDigitals.ToList());
+            }
+        }
+
     }
 }

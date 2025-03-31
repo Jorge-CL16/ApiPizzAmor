@@ -32,15 +32,11 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Caja/Caja.cshtml]
+[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Caja/Caja.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FqYVxDYWphLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Cliente/Cliente.cshtml]
-=======
 [C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Cliente/Cliente.cshtml]
->>>>>>> dbb4606f62cfac7c3e8ce22b98c788287e61a382
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -80,15 +76,11 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Orden/Orden.cshtml]
-=======
 [C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/OrdenFisica/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5GaXNpY2FcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Orden/Orden.cshtml]
->>>>>>> dbb4606f62cfac7c3e8ce22b98c788287e61a382
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cT3JkZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 

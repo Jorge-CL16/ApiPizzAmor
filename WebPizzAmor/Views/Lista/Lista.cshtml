@@ -2,6 +2,7 @@
 	Layout = null;
 }
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@
 					<div class="row">
 						<div class="col-12 text-start">
 							<h1 class="text-center" style="font-family: Segoe UI Black">
-								Ordenes
+								Ordenes Fisicas
 							</h1>
 						</div>
 					</div>
@@ -42,11 +43,12 @@
 								<th scope="col" style="font-family: Segoe UI Black">
 									Numero de Orden🍕:
 								</th>
-								<th scope="col" style="font-family: Segoe UI Black">Ingredientes</th>
+								<th scope="col" style="font-family: Segoe UI Black">Empleado</th>
+								<th scope="col" style="font-family: Segoe UI Black">Refresco</th>
+								<th scope="col" style="font-family: Segoe UI Black">Sabor</th>
 								<th scope="col" style="font-family: Segoe UI Black">Tamaño</th>
-								<th scope="col" style="font-family: Segoe UI Black">
-									Modificar Orden🍕
-								</th>
+								<th scope="col" style="font-family: Segoe UI Black">Fecha</th>
+								<th scope="col" style="font-family: Segoe UI Black">Total</th>
 								<th scope="col" style="font-family: Segoe UI Black">
 									Editar Orden🍕
 								</th>
@@ -57,14 +59,57 @@
 							{
 								<tr>
 									<td>@item.IdOrdenF</td>
+									<td>@item.IdEmpleado</td>
+									<td>@item.IdRefresco</td>
 									<td>@item.SaborIngredientes</td>
 									<td>@item.TamanioPizza</td>
-									<td>
-										@* 								@Html.ActionLink("Agregar", "Cliente", new { IdCliente = item.IdCliente }, new { @class = "btn btn-primary btn-sm text-white mt-2" })
- *@							</td>
-									<td>
-										@* 								@Html.ActionLink("Agregar", "Cliente", new { IdCliente = item.IdCliente }, new { @class = "btn btn-primary btn-sm text-white mt-2" })
- *@							</td>
+									<td>@item.FechaF</td>
+									<td>@item.MontoTotal</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+				}
+			</section>
+			<section id="ListaDigital" class="form-ListaDigital m-3">
+				<h1 class="text-center" style="font-family: Segoe UI Black">
+					Ordenes Digitales
+				</h1>
+				@using (Html.BeginForm("ListaDigital", "Lista", FormMethod.Post, new { enctype = "multipart/form-data" }))
+				{
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col" style="font-family: Segoe UI Black">
+									Numero de Orden🍕:
+								</th>
+								<th scope="col" style="font-family: Segoe UI Black">Cliente</th>
+								<th scope="col" style="font-family: Segoe UI Black">Repartidor</th>
+								<th scope="col" style="font-family: Segoe UI Black">Sucursal</th>
+								<th scope="col" style="font-family: Segoe UI Black">Ingredientes</th>
+								<th scope="col" style="font-family: Segoe UI Black">Tamaño</th>
+								<th scope="col" style="font-family: Segoe UI Black">Fecha</th>
+								<th scope="col" style="font-family: Segoe UI Black">Correo</th>
+								<th scope="col" style="font-family: Segoe UI Black">Total</th>
+								<th scope="col" style="font-family: Segoe UI Black">
+									Editar Orden🍕
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td>@item.IdOrdenD</td>
+									<td>@item.IdCliente</td>
+									<td>@item.IdRepartidor</td>
+									<td>@item.IdRefresco</td>
+									<td>@item.IdSucursal</td>
+									<td>@item.SaborIngredientes</td>
+									<td>@item.TamanioPizza</td>
+									<td>@item.FechaD</td>
+									<td>@item.Correo</td>
+									<td>@item.MontoTotal</td>
 								</tr>
 							}
 						</tbody>
