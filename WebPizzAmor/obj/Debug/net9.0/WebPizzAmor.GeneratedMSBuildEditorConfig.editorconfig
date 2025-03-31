@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Caja/Caja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FqYVxDYWphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Cliente/Cliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,10 +74,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Menu/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/OrdenFisica/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5GaXNpY2FcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Orden/Orden.cshtml]

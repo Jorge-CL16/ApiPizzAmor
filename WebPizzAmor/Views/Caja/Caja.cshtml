@@ -1,0 +1,118 @@
+﻿@using WebPizzAmor.Models
+@using DataAccess.Models
+
+@model WebPizzAmor.Models.CajaViewModel
+
+@{
+    ViewData["Title"] = "Caja";
+}
+
+<h2>Caja</h2>
+
+<form method="post" asp-action="ProcesarOrden">
+    <div class="form-group">
+        <label for="IdEmpleado">Empleado</label>
+        <select class="form-control" id="IdEmpleado" name="IdEmpleado" required>
+            <option value="">Seleccione un empleado</option>
+            @if (ViewBag.Empleados is IEnumerable<Empleado> empleados && empleados.Any())
+            {
+                @foreach (var empleado in empleados)
+                {
+                    <option value="@empleado.IdEmpleado">@empleado.NombreE @empleado.ApellidoE</option>
+                }
+            }
+            else
+            {
+                <option disabled>No hay empleados disponibles</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="IdRefresco">Refresco</label>
+        <select class="form-control" id="IdRefresco" name="IdRefresco" required>
+            <option value="">Seleccione un refresco</option>
+            @if (ViewBag.Refrescos is IEnumerable<Refresco> refrescos && refrescos.Any())
+            {
+                @foreach (var refresco in refrescos)
+                {
+                    <option value="@refresco.IdRefresco">@refresco.Marca - @refresco.TamanioR</option>
+                }
+            }
+            else
+            {
+                <option disabled>No hay refrescos disponibles</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="SaborIngredientes">Sabor</label>
+        <select class="form-control" id="SaborIngredientes" name="SaborIngredientes" required>
+            <option value="">Seleccione un sabor</option>
+            <option value="Margarita">Margarita</option>
+            <option value="Hawaiana">Hawaiana</option>
+            <option value="Cuatro Quesos">Cuatro Quesos</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="TamanioPizza">Tamaño de la Pizza</label>
+        <select class="form-control" id="TamanioPizza" name="TamanioPizza" required>
+            <option value="">Seleccione un tamaño</option>
+            <option value="Pequeña">Pequeña</option>
+            <option value="Mediana">Mediana</option>
+            <option value="Grande">Grande</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="IngredienteAdicional">Ingrediente Adicional</label>
+        <select class="form-control" id="IngredienteAdicional" name="IngredientesSeleccionados">
+            <option value="">Seleccione un ingrediente (opcional)</option>
+            <option value="Queso Extra">Queso Extra</option>
+            <option value="Jamon">Jamon</option>
+            <option value="Piña">Piña</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="MontoTotal">Monto Total</label>
+        <input type="text" class="form-control" id="MontoTotal" name="MontoTotal" value="@ViewBag.MontoTotal" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Procesar Orden</button>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        /*Con esto da el costo total si no pues no saldra en la view */
+        $(document).ready(function () {
+            function updateTotal() {
+                var tamanioPizza = $("#TamanioPizza").val();
+                var ingredientes = $("#IngredienteAdicional").val();
+                var precioPizza = 0;
+                if (tamanioPizza == "Pequeña") {
+                    precioPizza = 50;
+                } else if (tamanioPizza == "Mediana") {
+                    precioPizza = 75;
+                } else if (tamanioPizza == "Grande") {
+                    precioPizza = 100;
+                }
+
+                var precioIngrediente = 5;
+                var total = precioPizza;
+                if (ingredientes) {
+                    total += ingredientes.length * precioIngrediente;
+                }
+
+                $("#MontoTotal").val(total);
+            }
+
+            $("#TamanioPizza").change(updateTotal);
+            $("#IngredienteAdicional").change(updateTotal);
+        });
+    </script>
+}
