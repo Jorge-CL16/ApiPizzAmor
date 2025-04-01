@@ -24,8 +24,6 @@ public partial class OrdenDigital
 
     public decimal MontoTotal { get; set; }
 
-
-    // Propiedades de navegación (hacerlas opcionales)
     public virtual Cliente? IdClienteNavigation { get; set; }
     public virtual Refresco? IdRefrescoNavigation { get; set; }
     public virtual Repartidor? IdRepartidorNavigation { get; set; }

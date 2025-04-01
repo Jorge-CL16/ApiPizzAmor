@@ -51,9 +51,6 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// Habilitar CORS
-app.UseCors("AllowAll");
-
 app.UseSession();
 
 app.UseAuthorization();

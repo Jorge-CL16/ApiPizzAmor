@@ -4,7 +4,7 @@
 @model WebPizzAmor.Models.CajaViewModel
 
 @{
-    ViewData["Title"] = "Caja";
+    ViewData["Title"] = "Orden Digital";
     Layout = null;
 }
 
@@ -17,6 +17,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="/imgPrincipal/logoVentana.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
     <style>
         .hover-warning:hover {
             color: #ffc107 !important;
@@ -88,23 +90,93 @@
     </style>
 </head>
 <body>
-    <div class="container mt-4">
-        <h2 class="mb-4 text-center" style="font-family: Segoe UI Black">Caja 🍕</h2>
-        <form method="post" asp-action="ProcesarOrden" id="ordenForm" class="needs-validation" novalidate>
-            <div class="mb-3">
-                <label for="IdEmpleado" class="form-label" style="font-family: Segoe UI Black">Empleado</label>
-                <select class="form-select" id="IdEmpleado" name="IdEmpleado" required>
-                    <option value="">Seleccione un empleado</option>
-                    @if (ViewBag.Empleados is IEnumerable<Empleado> empleados && empleados.Any())
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">477 232 1406</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <img src="/imgPrincipal/logoVentana.png" alt="PizzAmor Logo" width="40">
+                    <h1 class="logo"><a href="/">PizzAmor</a></h1>
+                </div>
+
+                <style>
+                    .user-avatar {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        border: 2px solid #ffffff;
+                    }
+                </style>
+                <div class="container-user">
+                    @if (Context.Session.GetString("Usuario") != null)
                     {
-                        @foreach (var empleado in empleados)
+                        <img src="@Context.Session.GetString("ImagenPerfil")" class="user-avatar" alt="Imagen de usuario" />
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Login", "Account")"><i class="fa-solid fa-user"></i></a>
+                    }
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="@Url.Action("Principal", "Principal")">Inicio</a></li>
+                    <li><a href="@Url.Action("Menu", "Menu")">Menú</a></li>
+                    <li>
+                        @if (Context.Session.GetString("Usuario") != null)
                         {
-                            <option value="@empleado.IdEmpleado">@empleado.NombreE @empleado.ApellidoE</option>
+                            <a href="@Url.Action("OrdenD","OrdenD")">Orden en Línea</a>
+                        }
+                    </li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <div class="container mt-4">
+        <h2 class="mb-4 text-center" style="font-family: Segoe UI Black">Orden Digital 🍕</h2>
+        <form method="post" asp-action="ProcesarOrden" id="ordenForm" class="needs-validation" novalidate>
+
+            <div class="mb-3">
+                <label for="IdRepartidor" class="form-label" style="font-family: Segoe UI Black">Repartidor</label>
+                <select class="form-select" id="IdRepartidor" name="IdRepartidor" required>
+                    <option value="">Seleccione un repartidor</option>
+                    @if (ViewBag.Repartidores is IEnumerable<Repartidor> repartidores && repartidores.Any())
+                    {
+                        @foreach (var repartidor in repartidores)
+                        {
+                            <option value="@repartidor.IdRepartidor">@repartidor.NombreR @repartidor.ApellidoR</option>
                         }
                     }
                     else
                     {
-                        <option disabled>No hay empleados disponibles</option>
+                        <option disabled>No hay repartidores disponibles</option>
                     }
                 </select>
             </div>
@@ -112,7 +184,7 @@
             <div class="mb-3">
                 <label for="IdRefresco" class="form-label" style="font-family: Segoe UI Black">Refresco Gratis</label>
                 <select class="form-select" id="IdRefresco" name="IdRefresco" required>
-                    <option value="">Seleccione un refresco gratis</option>
+                    <option value="">Seleccione un refresco Gratis</option>
                     @if (ViewBag.Refrescos is IEnumerable<Refresco> refrescos && refrescos.Any())
                     {
                         @foreach (var refresco in refrescos)
@@ -128,12 +200,13 @@
             </div>
 
             <div class="mb-3">
-                <label for="SaborIngredientes" class="form-label" style="font-family: Segoe UI Black">Sabor</label>
+                <label for="SaborIngredientes" class="form-label" style="font-family: Segoe UI Black">Sabor de la Pizza</label>
                 <select class="form-select" id="SaborIngredientes" name="SaborIngredientes" required>
                     <option value="">Seleccione un sabor</option>
                     <option value="Margarita">Margarita</option>
                     <option value="Hawaiana">Hawaiana</option>
                     <option value="Cuatro Quesos">Cuatro Quesos</option>
+                    <option value="Pepperoni">Pepperoni</option>
                 </select>
             </div>
 
@@ -144,11 +217,12 @@
                     <option value="Pequeña">Pequeña</option>
                     <option value="Mediana">Mediana</option>
                     <option value="Grande">Grande</option>
+                    <option value="Familiar">Familiar</option>
                 </select>
             </div>
 
             <div class="mb-3">
-                <label for="IngredienteAdicional" class="form-label" style="font-family: Segoe UI Black">Ingrediente Adicional</label>
+                <label for="IngredientesSeleccionados" class="form-label" style="font-family: Segoe UI Black">Ingredientes Adicionales</label>
                 <select class="form-select" id="IngredientesSeleccionados" name="IngredientesSeleccionados">
                     <option value="Queso Extra">Queso Extra</option>
                     <option value="Jamon">Jamón</option>
@@ -167,6 +241,17 @@
                 Procesar Orden
             </button>
         </form>
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
     </div>
 
     <div class="modal fade ticket-modal" id="ticketModal" tabindex="-1" aria-hidden="true">
@@ -176,7 +261,7 @@
                     <div class="ticket-header">
                         <img src="/imgPrincipal/logoVentana.png" alt="PizzAmor Logo" class="ticket-logo">
                         <div class="ticket-title">PizzAmor</div>
-                        <div>Ticket de Caja</div>
+                        <div>Orden Digital</div>
                         <small id="ticketFecha"></small>
                     </div>
 
@@ -184,8 +269,8 @@
 
                     <div class="ticket-body" id="ticketContent">
                         <div class="ticket-item">
-                            <strong>Empleado:</strong>
-                            <span id="ticketEmpleado"></span>
+                            <strong>Repartidor:</strong>
+                            <span id="ticketRepartidor"></span>
                         </div>
                         <div class="ticket-item">
                             <strong>Refresco:</strong>
@@ -200,8 +285,8 @@
                             <span id="ticketTamanio"></span>
                         </div>
                         <div class="ticket-item">
-                            <strong>Ingrediente:</strong>
-                            <span id="ticketIngrediente"></span>
+                            <strong>Ingredientes:</strong>
+                            <span id="ticketIngredientes"></span>
                         </div>
 
                         <div class="ticket-divider"></div>
@@ -215,8 +300,8 @@
                     <div class="ticket-divider"></div>
 
                     <div class="ticket-footer">
-                        <div>¡Gracias por su compra!</div>
-                        <div>Vuelva pronto</div>
+                        <div>¡Gracias por tu compra!</div>
+                        <div>Tiempo estimado: 30-45 min</div>
                     </div>
                 </div>
                 <div class="modal-footer" style="justify-content: center; border-top: 2px dashed #ccc;">
@@ -236,12 +321,21 @@
             let ingredientes = document.getElementById("IngredientesSeleccionados").value;
             let precioPizza = 0;
 
-            if (tamanioPizza == "Pequeña") {
-                precioPizza = 50;
-            } else if (tamanioPizza == "Mediana") {
-                precioPizza = 75;
-            } else if (tamanioPizza == "Grande") {
-                precioPizza = 100;
+            switch (tamanioPizza) {
+                case "Pequeña":
+                    precioPizza = 50;
+                    break;
+                case "Mediana":
+                    precioPizza = 80;
+                    break;
+                case "Grande":
+                    precioPizza = 150;
+                    break;
+                case "Familiar":
+                    precioPizza = 350;
+                    break;
+                default:
+                    precioPizza = 0;
             }
 
             let precioIngrediente = 5;
@@ -252,7 +346,6 @@
 
         document.getElementById("TamanioPizza").addEventListener("change", updateTotal);
         document.getElementById("IngredientesSeleccionados").addEventListener("change", updateTotal);
-
         document.addEventListener("DOMContentLoaded", updateTotal);
 
         function validarFormulario() {
@@ -267,15 +360,15 @@
         }
 
         function mostrarTicket() {
-            const empleadoSelect = document.getElementById("IdEmpleado");
-            const empleadoText = empleadoSelect.options[empleadoSelect.selectedIndex].text;
+            const repartidorSelect = document.getElementById("IdRepartidor");
+            const repartidorText = repartidorSelect.options[repartidorSelect.selectedIndex].text;
 
             const refrescoSelect = document.getElementById("IdRefresco");
             const refrescoText = refrescoSelect.options[refrescoSelect.selectedIndex].text;
 
             const sabor = document.getElementById("SaborIngredientes").value;
             const tamanio = document.getElementById("TamanioPizza").value;
-            const ingrediente = document.getElementById("IngredientesSeleccionados").value || "Ninguno";
+            const ingredientes = document.getElementById("IngredientesSeleccionados").value || "Ninguno";
             const total = document.getElementById("MontoTotal").value;
 
             const ahora = new Date();
@@ -287,11 +380,11 @@
                 minute: '2-digit'
             });
 
-            document.getElementById("ticketEmpleado").textContent = empleadoText;
+            document.getElementById("ticketRepartidor").textContent = repartidorText;
             document.getElementById("ticketRefresco").textContent = refrescoText;
             document.getElementById("ticketSabor").textContent = sabor;
             document.getElementById("ticketTamanio").textContent = tamanio;
-            document.getElementById("ticketIngrediente").textContent = ingrediente;
+            document.getElementById("ticketIngredientes").textContent = ingredientes;
             document.getElementById("ticketTotal").textContent = total;
             document.getElementById("ticketFecha").textContent = fechaFormateada;
 

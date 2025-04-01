@@ -29,8 +29,23 @@ namespace WebPizzAmor.Controllers
 
             if (cliente != null)
             {
+                HttpContext.Session.SetInt32("IdCliente", cliente.IdCliente);
                 HttpContext.Session.SetString("Usuario", cliente.Correo);
+                HttpContext.Session.SetString("CorreoCliente", cliente.Correo);
+                HttpContext.Session.SetString("DomicilioCliente", cliente.Domicilio);
                 HttpContext.Session.SetString("ImagenPerfil", cliente.UrlImagen ?? "/img/default-user.png");
+
+                Console.WriteLine("Guardando en sesión:");
+                Console.WriteLine("IdCliente: " + cliente.IdCliente);
+                Console.WriteLine("CorreoCliente: " + cliente.Correo);
+                Console.WriteLine("DomicilioCliente: " + cliente.Domicilio);
+                Console.WriteLine("ImagenPerfil: " + cliente.UrlImagen);
+
+
+                /*/
+                HttpContext.Session.SetInt32("IdCliente", cliente.IdCliente);
+                HttpContext.Session.SetString("Usuario", cliente.Correo);
+                HttpContext.Session.SetString("ImagenPerfil", cliente.UrlImagen ?? "/img/default-user.png");*/
 
                 return RedirectToAction("Principal", "Principal");
             }

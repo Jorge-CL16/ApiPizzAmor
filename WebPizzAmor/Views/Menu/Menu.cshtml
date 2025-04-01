@@ -150,6 +150,15 @@
                     <h1 class="logo"><a href="/">PizzAmor</a></h1>
                 </div>
 
+                <style>
+                    .user-avatar {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        border: 2px solid #ffffff;
+                    }
+                </style>
                 <div class="container-user">
                     @if (Context.Session.GetString("Usuario") != null)
                     {
@@ -165,6 +174,7 @@
                         <span class="number">(0)</span>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -174,9 +184,14 @@
                 <ul class="menu">
                     <li><a href="@Url.Action("Principal", "Principal")">Inicio</a></li>
                     <li><a href="@Url.Action("Menu", "Menu")">Menú</a></li>
-                    <li><a href="#">Realiza una Orden</a></li>
+                    <li>
+                        @if (Context.Session.GetString("Usuario") != null)
+                        {
+                            <a href="@Url.Action("OrdenD","OrdenD")">Orden en Línea</a>
+                        }
+                    </li>
                     <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Contactanos</a></li>
                 </ul>
 
                 <form class="search-form">

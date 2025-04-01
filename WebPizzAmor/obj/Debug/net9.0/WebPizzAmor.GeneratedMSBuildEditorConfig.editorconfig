@@ -17,113 +17,117 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebPizzAmor
 build_property.RootNamespace = WebPizzAmor
-build_property.ProjectDir = C:\Users\Jsant\OneDrive\Escritorio\COPIAFINALPIZZA\ApiPizzAmor\WebPizzAmor\
+build_property.ProjectDir = C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jsant\OneDrive\Escritorio\COPIAFINALPIZZA\ApiPizzAmor\WebPizzAmor
+build_property.MSBuildProjectDirectory = C:\Users\jorge\OneDrive\Documentos\ProyectoRepo\ApiPizzAmor\WebPizzAmor
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Account/Login.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Caja/Caja.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Caja/Caja.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FqYVxDYWphLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Cliente/Cliente.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Cliente/Cliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Cliente/ModificarCliente.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Cliente/ModificarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxNb2RpZmljYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Cliente/TablaCliente.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Cliente/TablaCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxUYWJsYUNsaWVudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Empleado/Empleado.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Empleado/Empleado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRW1wbGVhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Empleado/ModificarEmpleado.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Empleado/ModificarEmpleado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cTW9kaWZpY2FyRW1wbGVhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Empleado/TablaEmpleado.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Empleado/TablaEmpleado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cVGFibGFFbXBsZWFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Home/Index.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Home/Privacy.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Lista/Lista.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Lista/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Menu/Menu.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Menu/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/OrdenFisica/Crear.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/OrdenD/OrdenD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5EXE9yZGVuRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/OrdenFisica/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5GaXNpY2FcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Orden/Orden.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Orden/Orden.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cT3JkZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/PedidosRepartidor/PedidosRepartidor.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/PedidosRepartidor/PedidosRepartidor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1JlcGFydGlkb3JcUGVkaWRvc1JlcGFydGlkb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Principal/Principal.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Principal/Principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXFByaW5jaXBhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Refresco/ModificarRefresco.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Refresco/ModificarRefresco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmcmVzY29cTW9kaWZpY2FyUmVmcmVzY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Refresco/Refresco.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Refresco/Refresco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmcmVzY29cUmVmcmVzY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Refresco/TablaRefresco.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Refresco/TablaRefresco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmcmVzY29cVGFibGFSZWZyZXNjby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Repartidor/Repartidor.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Repartidor/Repartidor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwYXJ0aWRvclxSZXBhcnRpZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Shared/Error.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/_ViewImports.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/_ViewStart.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jsant/OneDrive/Escritorio/COPIAFINALPIZZA/ApiPizzAmor/WebPizzAmor/Views/Shared/_Layout.cshtml]
+[C:/Users/jorge/OneDrive/Documentos/ProyectoRepo/ApiPizzAmor/WebPizzAmor/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oow0iuu5t6

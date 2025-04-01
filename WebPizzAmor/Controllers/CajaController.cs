@@ -50,7 +50,7 @@ namespace WebPizzAmor.Controllers
 
                     if (model.IngredientesSeleccionados != null && model.IngredientesSeleccionados.Any())
                     {
-                        montoTotal += model.IngredientesSeleccionados.Count * 5.00m; 
+                        montoTotal += model.IngredientesSeleccionados.Count * 10.00m; 
                     }
 
                     var ordenFisica = new OrdenFisica
