@@ -3,3 +3,6 @@
 *.pdb
 *.exe
 *.json
+# Ignorar archivos de compilación de .NET
+**/obj/
+**/bin/
