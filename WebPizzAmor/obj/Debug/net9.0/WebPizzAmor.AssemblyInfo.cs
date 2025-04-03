@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebPizzAmor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98782108bc2298c9ce65f8ee7412b67b9c1f82f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+677da2378454afc4f155dcc6d76544773aaaa265")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebPizzAmor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebPizzAmor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

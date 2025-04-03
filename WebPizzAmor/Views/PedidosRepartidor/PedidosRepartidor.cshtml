@@ -35,11 +35,10 @@
                 <td>@pedido.TamanioPizza</td>
                 <td>@pedido.MontoTotal.ToString("C")</td>
                 <td style="text-align: center;">
-                    <form method="post" action="@Url.Action("MarcarEntregado", "PedidosRepartidor")">
-                        <input type="hidden" name="idOrden" value="@pedido.IdOrdenD" />
-                        <input type="checkbox" name="entregado" value="true" style="transform: scale(1.5);" />
-                    </form>
+                    <input type="checkbox" class="checkbox-entregado" style="transform: scale(1.5);" onclick="marcarEntregado(this)" data-id="@pedido.IdOrdenD" />
+                    <span class="estado-entrega" style="color: gold; font-weight: bold; margin-left: 5px; display: none;">✔ Entregado</span>
                 </td>
+
             </tr>
         }
     </tbody>
@@ -93,3 +92,31 @@
         margin-bottom: 20px;
     }
 </style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".checkbox-entregado").forEach(checkbox => {
+            let idOrden = checkbox.getAttribute("data-id");
+            let estado = localStorage.getItem("pedido_" + idOrden);
+
+            if (estado === "true") {
+                checkbox.checked = true;
+                checkbox.disabled = true;
+                let span = checkbox.nextElementSibling;
+                if (span) span.style.display = "inline";
+            }
+        });
+    });
+
+    function marcarEntregado(checkbox) {
+        let idOrden = checkbox.getAttribute("data-id");
+
+        if (checkbox.checked) {
+            checkbox.disabled = true; 
+            let span = checkbox.nextElementSibling;
+            if (span) span.style.display = "inline";
+            localStorage.setItem("pedido_" + idOrden, "true"); 
+            alert("Pedido entregado al cliente");
+        }
+    }
+</script>
+
