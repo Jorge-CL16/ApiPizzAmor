@@ -37,15 +37,15 @@
                             <td>@item.PrecioR</td>
                             <td>@item.TamanioR</td>
                             <td>
-                                @Html.ActionLink("Agregar", "Refresco", new { IdRefresco = item.IdRefresco }, new { @class = "btn btn-primary btn-sm text-white mt-2" })
                                 @Html.ActionLink("Editar", "ModificarRefresco", new { idRefresco = item.IdRefresco }, new { @class = "btn btn-warning btn-sm mt-2 text-white" })
-                                @Html.ActionLink("Eliminar", "EliminarRefresco", new { idRefresco = item.IdRefresco }, new { @class = "btn btn-danger btn-sm mt-2 text-white" })
                             </td>
                         </tr>
                     }
                 </tbody>
             </table>
-            <input class="botons" type="submit" value="Agregar">
+            <p>
+                @Html.ActionLink("Agregar", "Refresco", new { @class = "btn btn-primary btn-sm text-white mt-2" })
+            </p>
         }
     </section>
 </body>
