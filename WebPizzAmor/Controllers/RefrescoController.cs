@@ -27,11 +27,11 @@ namespace WebPizzAmor.Controllers
         [HttpPost]
         public IActionResult AgregarRefresco(string marca, decimal precio, string tamanio)
         {
-            var refresco = new Refresco { 
+            var refresco = new DataAccess.Models.Refresco
+            {
                 Marca = marca,
                 PrecioR = precio,
-                TamanioR=tamanio
-            
+                TamanioR = tamanio
             };
 
             _context.Refrescos.Add(refresco);
