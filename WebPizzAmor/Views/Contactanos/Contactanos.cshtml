@@ -1,0 +1,146 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0" />
+	<title>PizzAmor</title>
+	<link rel="icon" href="/imgPrincipal/logoVentana.png" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+	<header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="customer-support">
+					<i class="fa-solid fa-headset"></i>
+					<div class="content-customer-support">
+						<span class="text">Soporte al cliente</span>
+						<span class="number">477 232 1406</span>
+					</div>
+				</div>
+
+				<div class="container-logo">
+					<img src="/imgPrincipal/logoVentana.png" alt="PizzAmor Logo" width="40">
+					<h1 class="logo"><a href="/">PizzAmor</a></h1>
+				</div>
+
+				<style>
+					.user-avatar {
+						width: 40px;
+						height: 40px;
+						border-radius: 50%;
+						object-fit: cover;
+						border: 2px solid #ffffff;
+					}
+				</style>
+				<div class="container-user">
+					@if (Context.Session.GetString("Usuario") != null)
+					{
+						<img src="@Context.Session.GetString("ImagenPerfil")" class="user-avatar" alt="Imagen de usuario" />
+					}
+					else
+					{
+						<a href="@Url.Action("Login", "Account")"><i class="fa-solid fa-user"></i></a>
+					}
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class="fa-solid fa-bars"></i>
+				<ul class="menu">
+					<li><a href="@Url.Action("Principal", "Principal")">Inicio</a></li>
+					<li><a href="@Url.Action("Menu", "Menu")">Menú</a></li>
+					<li>
+						@if (Context.Session.GetString("Usuario") != null)
+						{
+							<a href="@Url.Action("OrdenD","OrdenD")">Orden en Línea</a>
+						}
+					</li>
+					<li><a href="@Url.Action("Nosotros", "Nosotros")">Sobre Nosotros</a></li>
+					<li><a href="@Url.Action("Contactanos", "Contactanos" )">Contactanos</a></li>
+				</ul>
+
+				<form class="search-form">
+					<input type="search" placeholder="Las Mejores Pizzas" />
+					<button class="btn-search">
+					</button>
+				</form>
+			</nav>
+		</div>
+</body>
+	</header>
+	<body>
+<form>
+
+	<center>
+		<section class="jumbotron jumbotron-fluid col-md-8 center">
+			<p>Encuéntranos en:</p>
+			<a class="navbar-brand">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.111835978525!2d-101.70878378988436!3d21.147947180450153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf5887691edd%3A0x16c90ed14f9d3ebd!2sFLAMINGOS%20NIGHT%20CLUB!5e0!3m2!1ses-419!2smx!4v1739046970447!5m2!1ses-419!2smx"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen=""
+						loading="lazy"></iframe>
+			</a><br><br>
+			<p>PizzAmor</p>
+			<p>San Jose de las Piletas.</p>
+			<p>  P.º de los Insurgentes 2112, 37150 León de los Aldama, Gto. León, México - Teléfono: +52 477 232 1406</p>
+		</section>
+	</center>
+
+</form>
+
+<footer class="footer">
+	<div class="container container-footer">
+		<div class="menu-footer">
+			<div class="contact-info">
+				<p class="title-footer">Información de Contacto</p>
+				<ul>
+					<li>
+						Dirección: P.º de los Insurgentes 2112, San Jose de las Piletas,
+						37150 León de los Aldama, Gto.
+					</li>
+					<li>Teléfono: 477 232 1406</li>
+					<li>EmaiL: pizzAmor@gmail.com</li>
+				</ul>
+				<div class="social-icons">
+					<span class="facebook">
+						<i class="fa-brands fa-facebook-f"></i>
+					</span>
+					<span class="instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</span>
+				</div>
+			</div>
+
+			<div class="information">
+				<p class="title-footer">Información</p>
+				<ul>
+					<li><a href="#">Acerca de Nosotros</a></li>
+					<li><a href="#">Información Delivery</a></li>
+					<li><a href="#">Politicas de Privacidad</a></li>
+					<li><a href="#">Términos y condiciones</a></li>
+					<li><a href="#">Contactános</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<img src="/imgPrincipal/payment.png" alt="Pagos">
+		</div>
+	</div>
+</footer>
+
+<script src="https://kit.fontawesome.com/81581fb069.js"
+		crossorigin="anonymous"></script>
+</body>
+</html>

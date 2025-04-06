@@ -1,0 +1,187 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0" />
+	<title>PizzAmor</title>
+	<link rel="icon" href="/imgPrincipal/logoVentana.png" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+	<header>
+		<div class="container-hero">
+			<div class="container hero">
+				<div class="customer-support">
+					<i class="fa-solid fa-headset"></i>
+					<div class="content-customer-support">
+						<span class="text">Soporte al cliente</span>
+						<span class="number">477 232 1406</span>
+					</div>
+				</div>
+
+				<div class="container-logo">
+					<img src="/imgPrincipal/logoVentana.png" alt="PizzAmor Logo" width="40">
+					<h1 class="logo"><a href="/">PizzAmor</a></h1>
+				</div>
+
+				<style>
+					.user-avatar {
+						width: 40px;
+						height: 40px;
+						border-radius: 50%;
+						object-fit: cover;
+						border: 2px solid #ffffff;
+					}
+				</style>
+				<div class="container-user">
+					@if (Context.Session.GetString("Usuario") != null)
+					{
+						<img src="@Context.Session.GetString("ImagenPerfil")" class="user-avatar" alt="Imagen de usuario" />
+					}
+					else
+					{
+						<a href="@Url.Action("Login", "Account")"><i class="fa-solid fa-user"></i></a>
+					}
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container-navbar">
+			<nav class="navbar container">
+				<i class="fa-solid fa-bars"></i>
+				<ul class="menu">
+					<li><a href="@Url.Action("Principal", "Principal")">Inicio</a></li>
+					<li><a href="@Url.Action("Menu", "Menu")">Menú</a></li>
+					<li>
+						@if (Context.Session.GetString("Usuario") != null)
+						{
+							<a href="@Url.Action("OrdenD","OrdenD")">Orden en Línea</a>
+						}
+					</li>
+					<li><a href="@Url.Action("Nosotros", "Nosotros")">Sobre Nosotros</a></li>
+					<li><a href="@Url.Action("Contactanos", "Contactanos" )">Contactanos</a></li>
+				</ul>
+
+				<form class="search-form">
+					<input type="search" placeholder="Las Mejores Pizzas" />
+					<button class="btn-search">
+					</button>
+				</form>
+			</nav>
+		</div>
+		</body>
+	</header>
+	
+	<body>
+        <div class="border border-dark p-5 col-md-10">
+            <div class="container">
+                <u class="display-4">Historia</u><br>
+                <a class="navbar-brand">
+                </a>
+                <p class="lead">
+                    PizzAmor fue fundada por un joven y hábil empresario, con gran conocimiento e intuición dio inicio en el año 2000 a un pequeño negocio
+                    ubicado en Tancítaro N° 1004 El Retiro.
+
+                    Desde sus inicios nuestros productos fueron muy bien aceptados por el público en general, haciéndose Pizzas Amor muy pronto conocida por personas de
+                    toda la colonia. PizzAmor siempre innovando y en busca de la excelencia en sus servicios y productos que ha creado con un sabor único e incomparable,
+                    gracias a la gran demanda en el mercado y por contar con profesionales en el arte culinario.
+
+                    Así mismo queremos agradecerles, porque somos lo que somos, gracias a ustedes.
+                </p>
+            </div>
+        </div>
+        <div class="border border-dark p-5 col-md-10 mt-4">
+            <div class="container">
+                <u class="display-4">Misión</u><br>
+                <a class="navbar-brand">
+                </a>
+                <p class="lead">
+                    Brindar un servicio de calidad a nivel regional, proporcionando a nuestros clientes una variedad de ofertas que permitan
+                    a nuestro público disfrutar de productos propios e innovadores, en un mercado establecido, con una delicada elaboración con ingredientes
+                    de primera calidad, a un precio razonable y competitivo, de esa manera superar las expectativas de nuestro público consumidor.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="border border-dark p-5 col-md-10">
+            <div class="container">
+                <u class="display-4">visión</u><br>
+                <a class="navbar-brand">
+                </a>
+                <p class="lead">
+                    Ser una pizzería líder a nivel nacional, con productos de calidad y un servicio superior,
+                    teniendo como compromiso superar las expectativas del consumidor, brindándole y garantizándole, la mejor pizza del mercado,
+                    el más respetuoso y cordial trato, así como un sitio agradable para comer. Contamos con personal motivado, entrenado  y
+                    conformes con el futuro del negocio.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="border border-dark p-5 col-md-10">
+            <div class="container">
+                <u class="display-4">Valores</u><br>
+                <a class="navbar-brand">
+                </a>
+                <p class="lead">Calidad: Realizamos nuestra labor con eficiencia y dedicación para mantener una imagen positiva de nuestra marca ante nuestros consumidores, a base de brindarles la excelencia en cuanto a productos y servicios.</p>
+
+                <p class="lead">Liderazgo: En la familia "PizzAmor", nos esforzamos en fomentar la lealtad e inspirar confianza y credibilidad en nuestros clientes, a través de la realización de un trabajo arduo e innovador, para de esta manera llegar a ser la marca líder en el mercado nacional.</p>
+
+                <p class="lead">Pro Actividad: Mantenemos una actitud creativa, optimista y perseverante para satisfacer, y superar las expectativas y necesidades de nuestros clientes.</p>
+
+                <p class="lead">Unión: Nos esforzamos por fomentar la unidad entre la familia de "PizzAmor", para de esta manera trabajar bajo un mismo propósito.</p>
+            </div>
+        </div>
+    </div>
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: P.º de los Insurgentes 2112, San Jose de las Piletas,
+								37150 León de los Aldama, Gto.
+							</li>
+							<li>Teléfono: 477 232 1406</li>
+							<li>EmaiL: pizzAmor@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<img src="/imgPrincipal/payment.png" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://kit.fontawesome.com/81581fb069.js"
+				crossorigin="anonymous"></script>
+</body>
+</html>

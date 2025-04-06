@@ -185,8 +185,8 @@
                             <a href="@Url.Action("OrdenD","OrdenD")">Orden en Línea</a>
                         }
                     </li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="@Url.Action("Nosotros", "Nosotros")">Sobre Nosotros</a></li>
+                    <li><a href="@Url.Action("Contactanos", "Contactanos" )">Contactanos</a></li>
                 </ul>
 
                 <form class="search-form">
@@ -218,9 +218,6 @@
                                 <p class="card-text">@pizza.DescripPizza</p>
                                 <p class="fw-bold">$@pizza.Precio.ToString("N2")</p>
                                 <p class="text-muted">Tamaño: @pizza.TamanioPizza</p>
-                                <button class="btn-add-to-cart mt-auto">
-                                    <i class="fas fa-cart-plus me-2"></i>Añadir a la Orden
-                                </button>
                             </div>
                         </div>
                     </div>
