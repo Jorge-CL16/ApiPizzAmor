@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('/imgC/fondo.jpg');
-}
-
 .form-registroEmpleado {
     width: 600px;
     background: #0A2647;
